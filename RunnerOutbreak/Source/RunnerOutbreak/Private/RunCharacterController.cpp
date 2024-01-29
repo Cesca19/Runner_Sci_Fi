@@ -22,7 +22,7 @@ void ARunCharacterController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 	InputComponent->BindAxis("MoveRight", this, &ARunCharacterController::MoveRight);
-	InputComponent->BindAxis("LookUp", this, &ARunCharacterController::LookUp);
+	//InputComponent->BindAxis("LookUp", this, &ARunCharacterController::LookUp);
 	InputComponent->BindAxis("LookRight", this, &ARunCharacterController::LookRight);
 	InputComponent->BindAction("Jump", EInputEvent::IE_Pressed, this, &ARunCharacterController::Jump);
 }

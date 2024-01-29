@@ -36,7 +36,7 @@ void ARunCharacter::BeginPlay()
 	Weapon->SetRelativeTransform(FTransform());
 	//child->SetWorldTransform();
 	Weapon->CreateChildActor();
-	Weapon->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true));
+	Weapon->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), FName(TEXT("WeaponSocket")));
 }
 
 // Called every frame

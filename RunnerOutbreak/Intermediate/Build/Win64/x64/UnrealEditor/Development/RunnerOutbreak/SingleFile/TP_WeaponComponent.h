@@ -1,0 +1,1 @@
+#include "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Source/RunnerOutbreak/TP_WeaponComponent.h"
