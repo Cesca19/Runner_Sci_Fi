@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RunnerOutbreak.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RunnerOutbreak.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RunnerOutbreakEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RunnerOutbreak">
+      <UniqueIdentifier>{53A0E495-D735-3F36-AB09-3579432AB79B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RunnerOutbreak\RunnerOutbreak.Build.cs">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\RunnerOutbreak.cpp">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\RunnerOutbreak.h">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\RunnerOutbreakCharacter.cpp">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\RunnerOutbreakCharacter.h">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\RunnerOutbreakGameMode.cpp">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\RunnerOutbreakGameMode.h">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\RunnerOutbreakPlayerController.cpp">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\RunnerOutbreakPlayerController.h">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\RunnerOutbreakProjectile.cpp">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\RunnerOutbreakProjectile.h">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\TP_PickUpComponent.cpp">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\TP_PickUpComponent.h">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\TP_WeaponComponent.cpp">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\TP_WeaponComponent.h">
+      <Filter>Source\RunnerOutbreak</Filter>
+    </ClInclude>
+    <Filter Include="Source\RunnerOutbreak\Private">
+      <UniqueIdentifier>{6B6F4193-FE15-38CB-B989-937927C7041C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\RunCharacter.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\RunCharacterController.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\RunnerOutbreak\Public">
+      <UniqueIdentifier>{E1304F07-E357-3710-B479-D0779142D2B1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacter.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacterController.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

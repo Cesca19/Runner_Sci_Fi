@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Levels/TempLevel.umap",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/BP_RunCharacter.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Controllers/BP_RunCharacterController.uasset"
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "RunnerOutbreak",
+			"Path": "..\\Source\\RunnerOutbreak.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "RunnerOutbreakEditor",
+			"Path": "..\\Source\\RunnerOutbreakEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
