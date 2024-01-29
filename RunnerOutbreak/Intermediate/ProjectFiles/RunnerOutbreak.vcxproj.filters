@@ -81,19 +81,37 @@
     <Filter Include="Source\RunnerOutbreak\Private">
       <UniqueIdentifier>{6B6F4193-FE15-38CB-B989-937927C7041C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\PickUpWeapon.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\RunCharacter.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\RunCharacterController.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\Weapon.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\WeaponPickUp.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\RunnerOutbreak\Public">
       <UniqueIdentifier>{E1304F07-E357-3710-B479-D0779142D2B1}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\PickUpWeapon.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacter.h">
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacterController.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Weapon.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\WeaponPickUp.h">
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
   </ItemGroup>

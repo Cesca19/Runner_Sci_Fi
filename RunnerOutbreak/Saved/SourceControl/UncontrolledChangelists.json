@@ -8,7 +8,10 @@
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Levels/TempLevel.umap",
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/BP_RunCharacter.uasset",
-				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Controllers/BP_RunCharacterController.uasset"
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Controllers/BP_RunCharacterController.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Weapon.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_PickUpWeapon.uasset"
 			]
 		}
 	]

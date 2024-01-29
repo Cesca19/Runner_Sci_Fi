@@ -14,19 +14,23 @@ class RUNNEROUTBREAK_API ARunCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ARunCharacter();
+	UFUNCTION()
+	void AddWeapon(TSubclassOf<AActor> type);
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	class UCameraComponent* Camera;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	class USpringArmComponent* SpringArm;
+	class UChildActorComponent* Weapon;
+	
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
+private:
+	bool hasWeapon;
 };

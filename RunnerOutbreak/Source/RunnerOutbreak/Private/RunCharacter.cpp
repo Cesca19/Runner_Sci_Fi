@@ -14,7 +14,14 @@ ARunCharacter::ARunCharacter()
 	Camera->SetupAttachment(GetRootComponent());
 	Camera->bUsePawnControlRotation = true;
 
-	GetCharacterMovement()->MaxWalkSpeed = 1200.0f;
+	GetCharacterMovement()->MaxWalkSpeed = 900.0f;
+	hasWeapon = false;
+}
+
+
+void ARunCharacter::AddWeapon(TSubclassOf<AActor> type)
+{
+	Weapon->SetChildActorClass(type);
 }
 
 // Called when the game starts or when spawned
@@ -22,6 +29,14 @@ void ARunCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	Weapon = NewObject<UChildActorComponent>(this);
+	Weapon->bEditableWhenInherited = true;
+	Weapon->RegisterComponent();
+	//Weapon->SetChildActorClass(AWeapon::StaticClass());
+	Weapon->SetRelativeTransform(FTransform());
+	//child->SetWorldTransform();
+	Weapon->CreateChildActor();
+	Weapon->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true));
 }
 
 // Called every frame

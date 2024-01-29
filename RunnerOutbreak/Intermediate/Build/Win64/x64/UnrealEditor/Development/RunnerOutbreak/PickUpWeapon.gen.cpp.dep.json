@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\unrealeditor\\inc\\runneroutbreak\\uht\\pickupweapon.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\x64\\runneroutbreakeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\runneroutbreak\\definitions.runneroutbreak.h",
+            "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\source\\runneroutbreak\\public\\pickupweapon.h",
+            "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\unrealeditor\\inc\\runneroutbreak\\uht\\pickupweapon.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
