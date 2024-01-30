@@ -3,7 +3,8 @@
 
 #include "PickUpWeapon.h"
 #include "RunCharacter.h"
-#include "Components/StaticMeshComponent.h"
+#include "Weapon.h"
+#include "Components/SkeletalMeshComponent.h"
 
 // Sets default values
 APickUpWeapon::APickUpWeapon()
@@ -11,8 +12,8 @@ APickUpWeapon::APickUpWeapon()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>("Mesh");
-	SetRootComponent(StaticMesh);
+	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>("Mesh");
+	SetRootComponent(Mesh);
 }
 
 // Called when the game starts or when spawned

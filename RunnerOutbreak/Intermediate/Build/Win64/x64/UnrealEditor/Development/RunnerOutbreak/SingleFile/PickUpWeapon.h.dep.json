@@ -7,6 +7,7 @@
             "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\runneroutbreak\\definitions.runneroutbreak.h",
             "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\x64\\runneroutbreakeditor\\development\\engine\\shareddefinitions.engine.cpp20.h",
             "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\source\\runneroutbreak\\public\\pickupweapon.h",
+            "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\source\\runneroutbreak\\public\\weapon.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\coreminimal.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\coretypes.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
@@ -576,6 +577,7 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\misc\\paths.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionactordesctype.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\actor.generated.h",
+            "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\unrealeditor\\inc\\runneroutbreak\\uht\\weapon.generated.h",
             "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\unrealeditor\\inc\\runneroutbreak\\uht\\pickupweapon.generated.h"
         ],
         "ImportedModules": [],

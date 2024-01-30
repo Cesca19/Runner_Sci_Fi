@@ -14,11 +14,12 @@ void EmptyLinkFunctionForGeneratedCodePickUpWeapon() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	RUNNEROUTBREAK_API UClass* Z_Construct_UClass_APickUpWeapon();
 	RUNNEROUTBREAK_API UClass* Z_Construct_UClass_APickUpWeapon_NoRegister();
 	RUNNEROUTBREAK_API UClass* Z_Construct_UClass_ARunCharacter_NoRegister();
+	RUNNEROUTBREAK_API UClass* Z_Construct_UClass_AWeapon_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_RunnerOutbreak();
 // End Cross Module References
 	DEFINE_FUNCTION(APickUpWeapon::execOnHit)
@@ -181,9 +182,9 @@ void EmptyLinkFunctionForGeneratedCodePickUpWeapon() {}
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_WeaponType;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_StaticMesh_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_StaticMesh;
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_Mesh;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -211,18 +212,18 @@ void EmptyLinkFunctionForGeneratedCodePickUpWeapon() {}
 		{ "ModuleRelativePath", "Public/PickUpWeapon.h" },
 	};
 #endif
-	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_APickUpWeapon_Statics::NewProp_WeaponType = { "WeaponType", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APickUpWeapon, WeaponType), Z_Construct_UClass_UClass, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APickUpWeapon_Statics::NewProp_WeaponType_MetaData), Z_Construct_UClass_APickUpWeapon_Statics::NewProp_WeaponType_MetaData) };
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_APickUpWeapon_Statics::NewProp_WeaponType = { "WeaponType", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APickUpWeapon, WeaponType), Z_Construct_UClass_UClass, Z_Construct_UClass_AWeapon_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APickUpWeapon_Statics::NewProp_WeaponType_MetaData), Z_Construct_UClass_APickUpWeapon_Statics::NewProp_WeaponType_MetaData) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickUpWeapon_Statics::NewProp_StaticMesh_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickUpWeapon_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "PickUpWeapon" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/PickUpWeapon.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickUpWeapon_Statics::NewProp_StaticMesh = { "StaticMesh", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APickUpWeapon, StaticMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APickUpWeapon_Statics::NewProp_StaticMesh_MetaData), Z_Construct_UClass_APickUpWeapon_Statics::NewProp_StaticMesh_MetaData) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickUpWeapon_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APickUpWeapon, Mesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APickUpWeapon_Statics::NewProp_Mesh_MetaData), Z_Construct_UClass_APickUpWeapon_Statics::NewProp_Mesh_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APickUpWeapon_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickUpWeapon_Statics::NewProp_WeaponType,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickUpWeapon_Statics::NewProp_StaticMesh,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickUpWeapon_Statics::NewProp_Mesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APickUpWeapon_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APickUpWeapon>::IsAbstract,
@@ -262,9 +263,9 @@ void EmptyLinkFunctionForGeneratedCodePickUpWeapon() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_PickUpWeapon_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APickUpWeapon, APickUpWeapon::StaticClass, TEXT("APickUpWeapon"), &Z_Registration_Info_UClass_APickUpWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APickUpWeapon), 1035487393U) },
+		{ Z_Construct_UClass_APickUpWeapon, APickUpWeapon::StaticClass, TEXT("APickUpWeapon"), &Z_Registration_Info_UClass_APickUpWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APickUpWeapon), 909664585U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_PickUpWeapon_h_1716378764(TEXT("/Script/RunnerOutbreak"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_PickUpWeapon_h_2908760553(TEXT("/Script/RunnerOutbreak"),
 		Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_PickUpWeapon_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_PickUpWeapon_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

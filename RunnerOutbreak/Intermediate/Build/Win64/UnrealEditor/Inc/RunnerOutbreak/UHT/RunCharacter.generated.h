@@ -9,7 +9,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
+class AWeapon;
 #ifdef RUNNEROUTBREAK_RunCharacter_generated_h
 #error "RunCharacter.generated.h already included, missing '#pragma once' in RunCharacter.h"
 #endif

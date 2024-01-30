@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Weapon.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "PickUpWeapon.generated.h"
@@ -19,13 +20,13 @@ public:
 	void OnGet();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TSubclassOf<AActor> WeaponType;
+	TSubclassOf<AWeapon> WeaponType;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	class UStaticMeshComponent* StaticMesh;
+	class USkeletalMeshComponent* Mesh;
 
 public:	
 	// Called every frame

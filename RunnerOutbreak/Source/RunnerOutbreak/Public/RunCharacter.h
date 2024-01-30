@@ -14,8 +14,9 @@ class RUNNEROUTBREAK_API ARunCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ARunCharacter();
+	
 	UFUNCTION()
-	void AddWeapon(TSubclassOf<AActor> type);
+	void AddWeapon(TSubclassOf<AWeapon> type);
 
 protected:
 	// Called when the game starts or when spawned
@@ -28,6 +29,9 @@ protected:
 	class USkeletalMeshComponent* PlayerMesh;
 
 public:	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AWeapon> StartWeapon;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

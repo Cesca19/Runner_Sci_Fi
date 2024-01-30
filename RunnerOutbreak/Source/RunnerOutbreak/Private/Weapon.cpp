@@ -4,7 +4,6 @@
 #include "Weapon.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SceneComponent.h"
-#include "RunCharacter.h"
 
 // Sets default values
 AWeapon::AWeapon()
@@ -12,7 +11,7 @@ AWeapon::AWeapon()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	Mesh = CreateDefaultSubobject<USkeletalMeshComponent >("Mesh");
+	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>("Mesh");
 	SetRootComponent(Mesh);
 }
 

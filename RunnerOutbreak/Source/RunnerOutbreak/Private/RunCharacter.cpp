@@ -2,6 +2,7 @@
 
 
 #include "RunCharacter.h"
+#include "Weapon.h"
 #include "Camera/CameraComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -23,7 +24,7 @@ ARunCharacter::ARunCharacter()
 }
 
 
-void ARunCharacter::AddWeapon(TSubclassOf<AActor> type)
+void ARunCharacter::AddWeapon(TSubclassOf<AWeapon> type)
 {
 	Weapon->SetChildActorClass(type);
 }
@@ -37,6 +38,8 @@ void ARunCharacter::BeginPlay()
 	Weapon->bEditableWhenInherited = true;
 	Weapon->RegisterComponent();
 	Weapon->CreateChildActor();
+	if(StartWeapon)
+		Weapon->SetChildActorClass(StartWeapon);
 	Weapon->AttachToComponent(PlayerMesh, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), FName(TEXT("WeaponSocket")));
 }
 
