@@ -17,6 +17,7 @@ public:
 	
 	UFUNCTION()
 	void AddWeapon(TSubclassOf<AWeapon> type);
+	AWeapon* GetWeapon();
 
 protected:
 	// Called when the game starts or when spawned

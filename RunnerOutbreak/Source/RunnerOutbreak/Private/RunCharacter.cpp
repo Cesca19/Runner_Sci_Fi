@@ -29,6 +29,11 @@ void ARunCharacter::AddWeapon(TSubclassOf<AWeapon> type)
 	Weapon->SetChildActorClass(type);
 }
 
+AWeapon* ARunCharacter::GetWeapon()
+{
+	return Cast<AWeapon>(Weapon->GetChildActor());
+}
+
 // Called when the game starts or when spawned
 void ARunCharacter::BeginPlay()
 {

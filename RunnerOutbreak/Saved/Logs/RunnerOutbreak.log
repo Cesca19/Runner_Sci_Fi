@@ -1811,3 +1811,920 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.30-11.21.32:791][379]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
 [2024.01.30-11.21.32:797][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
 [2024.01.30-11.21.32:883][381]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.01.30-11.24.52:170][585]LogSlate: External Image Picker: DecompressImage failed
+[2024.01.30-11.28.27:015][633]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.30-11.28.27:021][633]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.30-11.33.33:440][ 31]Candidate modules for hot reload:
+[2024.01.30-11.33.33:440][ 31]  RunnerOutbreak
+[2024.01.30-11.33.33:449][ 31]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=RunnerOutbreak,2467 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk]
+[2024.01.30-11.33.33:470][ 31]Warning: Starting HotReload took  0.1s.
+[2024.01.30-11.33.35:449][142]CompilerResultsLog: New page: Compilation - 30 janv. 2024 à 13:33:35
+[2024.01.30-11.33.35:450][142]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.01.30-11.33.35:450][142]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=RunnerOutbreak,2467 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk
+[2024.01.30-11.33.35:450][142]CompilerResultsLog: Log file: C:\Users\fifam\AppData\Local\UnrealBuildTool\Log.txt
+[2024.01.30-11.33.35:450][142]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi).
+[2024.01.30-11.33.35:450][142]CompilerResultsLog: Creating makefile for RunnerOutbreakEditor (command line arguments changed)
+[2024.01.30-11.33.35:450][142]CompilerResultsLog: Parsing headers for RunnerOutbreakEditor
+[2024.01.30-11.33.35:450][142]CompilerResultsLog:   Running Internal UnrealHeaderTool "C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\RunnerOutbreak.uproject" "C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\RunnerOutbreakEditor\Development\RunnerOutbreakEditor.uhtmanifest" -WarningsAsErrors -installed
+[2024.01.30-11.33.35:451][142]CompilerResultsLog: Error: C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Source\RunnerOutbreak\Public\RunCharacterController.h(32) : Error: Function return type: Missing variable type or name
+[2024.01.30-11.33.35:451][142]CompilerResultsLog: Total of 0 written
+[2024.01.30-11.33.35:451][142]CompilerResultsLog: Total execution time: 1.73 seconds
+[2024.01.30-11.33.35:451][142]LogMainFrame: MainFrame: Module compiling took 2.049 seconds
+[2024.01.30-11.33.35:452][142]Warning: HotReload failed, recompile failed
+[2024.01.30-11.34.03:989][ 86]Candidate modules for hot reload:
+[2024.01.30-11.34.03:990][ 86]  RunnerOutbreak
+[2024.01.30-11.34.03:998][ 86]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=RunnerOutbreak,2313 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk]
+[2024.01.30-11.34.04:013][ 86]Warning: Starting HotReload took  0.1s.
+[2024.01.30-11.34.04:347][ 99]CompilerResultsLog: New page: Compilation - 30 janv. 2024 à 13:34:04
+[2024.01.30-11.34.04:347][ 99]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.01.30-11.34.04:347][ 99]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=RunnerOutbreak,2313 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk
+[2024.01.30-11.34.04:349][ 99]CompilerResultsLog: A conflicting instance of UnrealBuildTool is already running.
+[2024.01.30-11.34.04:349][ 99]LogMainFrame: MainFrame: Module compiling took 0.395 seconds
+[2024.01.30-11.34.04:349][ 99]Warning: HotReload failed, recompile failed
+[2024.01.30-11.34.10:244][448]Candidate modules for hot reload:
+[2024.01.30-11.34.10:244][448]  RunnerOutbreak
+[2024.01.30-11.34.10:249][448]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=RunnerOutbreak,9430 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk]
+[2024.01.30-11.34.10:268][448]Warning: Starting HotReload took  0.1s.
+[2024.01.30-11.34.21:179][ 95]CompilerResultsLog: New page: Compilation - 30 janv. 2024 à 13:34:21
+[2024.01.30-11.34.21:179][ 95]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.01.30-11.34.21:179][ 95]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=RunnerOutbreak,9430 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk
+[2024.01.30-11.34.21:179][ 95]CompilerResultsLog: Log file: C:\Users\fifam\AppData\Local\UnrealBuildTool\Log.txt
+[2024.01.30-11.34.21:179][ 95]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi).
+[2024.01.30-11.34.21:179][ 95]CompilerResultsLog: Creating makefile for RunnerOutbreakEditor (command line arguments changed)
+[2024.01.30-11.34.21:179][ 95]CompilerResultsLog: Building RunnerOutbreakEditor...
+[2024.01.30-11.34.21:179][ 95]CompilerResultsLog: Using Visual Studio 2022 14.36.32544 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.30-11.34.21:179][ 95]CompilerResultsLog: [Adaptive Build] Excluded from RunnerOutbreak unity file: RunCharacter.cpp, RunCharacterController.cpp, Weapon.cpp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog:   Executing up to 14 processes, one per physical core
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog:   Requested 1.5 GB memory per action, 3.14 GB available: limiting max parallel actions to 2
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: ------ Building 12 action(s) started ------
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [1/12] Compile [x64] Weapon.cpp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [2/12] Compile [x64] RunCharacterController.gen.cpp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [3/12] Compile [x64] RunCharacterController.cpp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [4/12] Compile [x64] RunCharacter.cpp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [5/12] Compile [x64] RunnerOutbreak.init.gen.cpp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [6/12] Compile [x64] PickUpWeapon.cpp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [7/12] Compile [x64] PickUpWeapon.gen.cpp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [8/12] Compile [x64] Weapon.gen.cpp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [9/12] Compile [x64] RunCharacter.gen.cpp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [10/12] Link [x64] UnrealEditor-RunnerOutbreak-9430.lib
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-9430.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-9430.exp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [11/12] Link [x64] UnrealEditor-RunnerOutbreak-9430.dll
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-9430.sup.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-9430.sup.exp
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: [12/12] WriteMetadata RunnerOutbreakEditor.target
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: Total time in Parallel executor: 8.94 seconds
+[2024.01.30-11.34.21:180][ 95]CompilerResultsLog: Total execution time: 10.74 seconds
+[2024.01.30-11.34.21:180][ 95]LogMainFrame: MainFrame: Module compiling took 10.960 seconds
+[2024.01.30-11.34.21:300][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   7.15ms
+[2024.01.30-11.34.22:420][ 95]LogClass: UPackage /Script/RunnerOutbreak Reload.
+[2024.01.30-11.34.22:424][ 95]LogClass: UClass RunCharacterController Reload.
+[2024.01.30-11.34.22:425][ 95]LogClass: UClass Weapon Reload.
+[2024.01.30-11.34.22:428][ 95]LogClass: Could not find existing class RunCharacterController in package /Script/RunnerOutbreak for reload, assuming new or modified class
+[2024.01.30-11.34.22:429][ 95]LogClass: Function Fire is new or belongs to a modified class.
+[2024.01.30-11.34.22:429][ 95]LogClass: Function Jump is new or belongs to a modified class.
+[2024.01.30-11.34.22:429][ 95]LogClass: Function LookRight is new or belongs to a modified class.
+[2024.01.30-11.34.22:429][ 95]LogClass: Function LookUp is new or belongs to a modified class.
+[2024.01.30-11.34.22:429][ 95]LogClass: Function MoveRight is new or belongs to a modified class.
+[2024.01.30-11.34.22:438][ 95]LogClass: Could not find existing class Weapon in package /Script/RunnerOutbreak for reload, assuming new or modified class
+[2024.01.30-11.34.22:438][ 95]LogClass: Function Fire is new or belongs to a modified class.
+[2024.01.30-11.34.22:466][ 95]Re-instancing RunCharacterController after reload.
+[2024.01.30-11.34.22:502][ 95]Re-instancing Weapon after reload.
+[2024.01.30-11.34.22:683][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.01.30-11.34.22:730][ 95]Display: HotReload took 12.5s.
+[2024.01.30-11.34.22:730][ 95]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes changed, 10 classes unchanged, 10 functions remapped
+[2024.01.30-11.34.27:467][353]LogSlate: Window 'Message Log' being destroyed
+[2024.01.30-11.34.27:477][353]LogSlate: Window 'Message Log' being destroyed
+[2024.01.30-11.34.39:335][ 62]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.34.39:395][ 63]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.34.39:440][ 65]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.34.41:292][176]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Actors/Weapon/BP_Gun.BP_Gun
+[2024.01.30-11.34.41:292][176]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.34.41:293][176]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.34.43:314][282]LogSlate: Window 'BP_Gun' being destroyed
+[2024.01.30-11.34.43:333][282]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.34.43:333][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.34.43:351][282]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Actors/Weapon/BP_Gun.BP_Gun
+[2024.01.30-11.34.43:351][282]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.34.43:351][282]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.34.46:637][462]LogSlate: Window 'BP_Gun' being destroyed
+[2024.01.30-11.35.07:402][652]LogSlate: Took 0.000623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.30-11.35.08:336][708]LogSlate: Took 0.002823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.01.30-11.36.09:650][276]BlueprintLog: New page: Compile BP_Gun
+[2024.01.30-11.36.09:798][276]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2024.01.30-11.36.11:027][348]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.30-11.36.11:153][348]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.36.11:189][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Weapon/BP_Gun" FILE="../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Gun.uasset" SILENT=true
+[2024.01.30-11.36.11:194][348]LogSavePackage: Moving output files for package: /Game/Actors/Weapon/BP_Gun
+[2024.01.30-11.36.11:195][348]LogSavePackage: Moving '../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Saved/BP_Gun0C3D4FB2459AE3E6ECA0C3A9CE845691.tmp' to '../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Gun.uasset'
+[2024.01.30-11.36.11:207][348]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 653 ms)
+[2024.01.30-11.36.11:212][348]AssetCheck: New page: Asset Save: BP_Gun
+[2024.01.30-11.36.11:212][348]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Actors/Weapon/BP_Gun.BP_Gun
+[2024.01.30-11.36.14:518][537]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.30-11.36.14:525][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.30-11.36.14:525][537]PIE: New page: PIE session: TempLevel (30 janv. 2024 à 13:36:14)
+[2024.01.30-11.36.14:525][537]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.36.14:527][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001824s)
+[2024.01.30-11.36.14:527][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TempLevel.TempLevel to /Game/Levels/UEDPIE_0_TempLevel.TempLevel (0.002017s)
+[2024.01.30-11.36.14:568][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2024.01.30-11.36.14:577][537]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.36.14:577][537]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.36.14:578][537]LogAIModule: Creating AISystem for world TempLevel
+[2024.01.30-11.36.14:579][537]LogPlayLevel: PIE: World Init took: (0.002402s)
+[2024.01.30-11.36.14:579][537]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.01.30-11.36.14:579][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.30-11.36.14:579][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.30-11.36.14:579][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.30-11.36.14:580][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.30-11.36.14:580][537]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.30-11.36.14:580][537]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.30-11.36.14:580][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.30-11.36.14:580][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.30-11.36.14:580][537]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.30-11.36.14:580][537]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.30-11.36.14:580][537]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.30-11.36.14:584][537]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.30-11.36.14:609][537]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.30-11.36.14:610][537]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.30-11.36.14:610][537]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.30-11.36.14:610][537]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.30-11.36.14:610][537]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.01.30-11.36.14:610][537]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.01.30-11.36.14:611][537]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.01.30-11.36.14:611][537]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.01.30-11.36.14:611][537]LogInit: FAudioDevice initialized with ID 6.
+[2024.01.30-11.36.14:611][537]LogAudio: Display: Audio Device (ID: 6) registered with world 'TempLevel'.
+[2024.01.30-11.36.14:613][537]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.30-11.36.14:619][537]LogLoad: Game class is 'BP_RunCharacterGameMode_C'
+[2024.01.30-11.36.14:622][537]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TempLevel.TempLevel up for play (max tick rate 60) at 2024.01.30-12.36.14
+[2024.01.30-11.36.14:622][537]LogWorld: Bringing up level for play took: 0.002130
+[2024.01.30-11.36.14:625][537]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.01.30-11.36.14:627][537]PIE: Server logged in
+[2024.01.30-11.36.14:628][537]PIE: Play in editor total start time 0,105 seconds.
+[2024.01.30-11.36.34:914][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.36.34:914][748]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.36.34:916][748]LogWorld: UWorld::CleanupWorld for TempLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.36.34:917][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.36.34:920][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.30-11.36.34:922][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.36.34:931][748]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.30-11.36.34:932][748]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.30-11.36.34:932][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.30-11.36.34:933][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.30-11.36.34:937][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.36.34:939][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.01.30-11.36.34:990][749]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.01.30-11.36.48:370][525]BlueprintLog: New page: Compile BP_Gun
+[2024.01.30-11.36.48:393][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.01.30-11.36.49:736][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.30-11.36.49:859][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Weapon/BP_Gun" FILE="../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Gun.uasset" SILENT=true
+[2024.01.30-11.36.49:863][603]LogSavePackage: Moving output files for package: /Game/Actors/Weapon/BP_Gun
+[2024.01.30-11.36.49:865][603]LogSavePackage: Moving '../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Saved/BP_Gun86135D3E445EEBF4443D35BD884A529A.tmp' to '../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Gun.uasset'
+[2024.01.30-11.36.49:875][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 793 ms)
+[2024.01.30-11.36.49:879][603]AssetCheck: New page: Asset Save: BP_Gun
+[2024.01.30-11.36.49:879][603]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Actors/Weapon/BP_Gun.BP_Gun
+[2024.01.30-11.36.51:613][695]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.30-11.36.51:618][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.30-11.36.51:618][695]PIE: New page: PIE session: TempLevel (30 janv. 2024 à 13:36:51)
+[2024.01.30-11.36.51:618][695]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.36.51:620][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001300s)
+[2024.01.30-11.36.51:620][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TempLevel.TempLevel to /Game/Levels/UEDPIE_0_TempLevel.TempLevel (0.001327s)
+[2024.01.30-11.36.51:629][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.01.30-11.36.51:631][695]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.36.51:631][695]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.36.51:632][695]LogAIModule: Creating AISystem for world TempLevel
+[2024.01.30-11.36.51:632][695]LogPlayLevel: PIE: World Init took: (0.000754s)
+[2024.01.30-11.36.51:632][695]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.01.30-11.36.51:632][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.30-11.36.51:632][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.30-11.36.51:632][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.30-11.36.51:632][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.30-11.36.51:632][695]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.30-11.36.51:632][695]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.30-11.36.51:632][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.30-11.36.51:632][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.30-11.36.51:633][695]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.30-11.36.51:633][695]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.30-11.36.51:633][695]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.30-11.36.51:634][695]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.30-11.36.51:654][695]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.30-11.36.51:655][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.30-11.36.51:655][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.30-11.36.51:655][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.30-11.36.51:656][695]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.01.30-11.36.51:656][695]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.01.30-11.36.51:657][695]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.01.30-11.36.51:657][695]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.01.30-11.36.51:657][695]LogInit: FAudioDevice initialized with ID 7.
+[2024.01.30-11.36.51:657][695]LogAudio: Display: Audio Device (ID: 7) registered with world 'TempLevel'.
+[2024.01.30-11.36.51:657][695]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.30-11.36.51:659][695]LogLoad: Game class is 'BP_RunCharacterGameMode_C'
+[2024.01.30-11.36.51:660][695]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TempLevel.TempLevel up for play (max tick rate 60) at 2024.01.30-12.36.51
+[2024.01.30-11.36.51:660][695]LogWorld: Bringing up level for play took: 0.000793
+[2024.01.30-11.36.51:662][695]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.01.30-11.36.51:663][695]PIE: Server logged in
+[2024.01.30-11.36.51:664][695]PIE: Play in editor total start time 0,046 seconds.
+[2024.01.30-11.36.59:144][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.36.59:144][139]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.36.59:144][139]LogWorld: UWorld::CleanupWorld for TempLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.36.59:145][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.36.59:148][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.30-11.36.59:151][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.36.59:161][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.36.59:161][139]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.30-11.36.59:161][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.30-11.36.59:164][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.30-11.36.59:168][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.01.30-11.36.59:218][140]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.01.30-11.38.32:005][769]Candidate modules for hot reload:
+[2024.01.30-11.38.32:006][769]  RunnerOutbreak
+[2024.01.30-11.38.32:011][769]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=RunnerOutbreak,8117 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk]
+[2024.01.30-11.38.32:029][769]Warning: Starting HotReload took  0.1s.
+[2024.01.30-11.38.44:240][496]CompilerResultsLog: New page: Compilation - 30 janv. 2024 à 13:38:44
+[2024.01.30-11.38.44:240][496]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.01.30-11.38.44:240][496]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=RunnerOutbreak,8117 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk
+[2024.01.30-11.38.44:240][496]CompilerResultsLog: Log file: C:\Users\fifam\AppData\Local\UnrealBuildTool\Log.txt
+[2024.01.30-11.38.44:240][496]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi).
+[2024.01.30-11.38.44:240][496]CompilerResultsLog: Building RunnerOutbreakEditor...
+[2024.01.30-11.38.44:240][496]CompilerResultsLog: Using Visual Studio 2022 14.36.32544 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.30-11.38.44:241][496]CompilerResultsLog: [Adaptive Build] Excluded from RunnerOutbreak unity file: RunCharacter.cpp, RunCharacterController.cpp, Weapon.cpp
+[2024.01.30-11.38.44:241][496]CompilerResultsLog: Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+[2024.01.30-11.38.44:241][496]CompilerResultsLog:   Executing up to 14 processes, one per physical core
+[2024.01.30-11.38.44:241][496]CompilerResultsLog:   Requested 1.5 GB memory per action, 15.69 GB available: limiting max parallel actions to 10
+[2024.01.30-11.38.44:241][496]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2024.01.30-11.38.44:241][496]CompilerResultsLog: [1/4] Compile [x64] RunCharacterController.cpp
+[2024.01.30-11.38.44:241][496]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-RunnerOutbreak-8117.lib
+[2024.01.30-11.38.44:241][496]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-8117.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-8117.exp
+[2024.01.30-11.38.44:241][496]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-RunnerOutbreak-8117.dll
+[2024.01.30-11.38.44:241][496]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-8117.sup.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-8117.sup.exp
+[2024.01.30-11.38.44:241][496]CompilerResultsLog: [4/4] WriteMetadata RunnerOutbreakEditor.target
+[2024.01.30-11.38.44:241][496]CompilerResultsLog: Total time in Parallel executor: 11.31 seconds
+[2024.01.30-11.38.44:241][496]CompilerResultsLog: Total execution time: 12.04 seconds
+[2024.01.30-11.38.44:241][496]LogMainFrame: MainFrame: Module compiling took 12.262 seconds
+[2024.01.30-11.38.44:254][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.01.30-11.38.45:430][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.01.30-11.38.45:459][496]Display: HotReload took 13.5s.
+[2024.01.30-11.38.45:460][496]Display: Reload/Re-instancing Complete: 1 package changed, 12 classes unchanged, 16 functions remapped
+[2024.01.30-11.38.49:179][704]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.30-11.38.49:186][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.30-11.38.49:186][704]PIE: New page: PIE session: TempLevel (30 janv. 2024 à 13:38:49)
+[2024.01.30-11.38.49:186][704]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.38.49:187][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001420s)
+[2024.01.30-11.38.49:187][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TempLevel.TempLevel to /Game/Levels/UEDPIE_0_TempLevel.TempLevel (0.001453s)
+[2024.01.30-11.38.49:241][704]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2024.01.30-11.38.49:247][704]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.38.49:247][704]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.38.49:247][704]LogAIModule: Creating AISystem for world TempLevel
+[2024.01.30-11.38.49:247][704]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2024.01.30-11.38.49:247][704]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.01.30-11.38.49:248][704]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.30-11.38.49:248][704]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.30-11.38.49:248][704]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.30-11.38.49:248][704]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.30-11.38.49:248][704]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.30-11.38.49:248][704]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.30-11.38.49:248][704]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.30-11.38.49:248][704]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.30-11.38.49:248][704]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.30-11.38.49:249][704]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.30-11.38.49:249][704]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.30-11.38.49:251][704]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.30-11.38.49:273][704]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.30-11.38.49:273][704]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.30-11.38.49:273][704]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.30-11.38.49:273][704]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.30-11.38.49:274][704]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.01.30-11.38.49:274][704]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.01.30-11.38.49:276][704]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.01.30-11.38.49:276][704]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.01.30-11.38.49:276][704]LogInit: FAudioDevice initialized with ID 8.
+[2024.01.30-11.38.49:276][704]LogAudio: Display: Audio Device (ID: 8) registered with world 'TempLevel'.
+[2024.01.30-11.38.49:276][704]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.30-11.38.49:278][704]LogLoad: Game class is 'BP_RunCharacterGameMode_C'
+[2024.01.30-11.38.49:279][704]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TempLevel.TempLevel up for play (max tick rate 60) at 2024.01.30-12.38.49
+[2024.01.30-11.38.49:279][704]LogWorld: Bringing up level for play took: 0.000943
+[2024.01.30-11.38.49:281][704]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.01.30-11.38.49:284][704]PIE: Server logged in
+[2024.01.30-11.38.49:285][704]PIE: Play in editor total start time 0,098 seconds.
+[2024.01.30-11.39.00:034][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.39.00:034][344]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.39.00:034][344]LogWorld: UWorld::CleanupWorld for TempLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.39.00:034][344]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.39.00:037][344]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.30-11.39.00:039][344]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.39.00:048][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.39.00:053][344]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.30-11.39.00:053][344]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.30-11.39.00:054][344]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.30-11.39.00:083][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.01.30-11.39.00:160][345]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.01.30-11.39.28:756][696]Candidate modules for hot reload:
+[2024.01.30-11.39.28:756][696]  RunnerOutbreak
+[2024.01.30-11.39.28:762][696]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=RunnerOutbreak,3110 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk]
+[2024.01.30-11.39.28:783][696]Warning: Starting HotReload took  0.1s.
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: New page: Compilation - 30 janv. 2024 à 13:39:37
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=RunnerOutbreak,3110 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: Log file: C:\Users\fifam\AppData\Local\UnrealBuildTool\Log.txt
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi).
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: Building RunnerOutbreakEditor...
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: Using Visual Studio 2022 14.36.32544 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: [Adaptive Build] Excluded from RunnerOutbreak unity file: RunCharacter.cpp, RunCharacterController.cpp, Weapon.cpp
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+[2024.01.30-11.39.37:368][205]CompilerResultsLog:   Executing up to 14 processes, one per physical core
+[2024.01.30-11.39.37:368][205]CompilerResultsLog:   Requested 1.5 GB memory per action, 15.69 GB available: limiting max parallel actions to 10
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: [1/4] Compile [x64] RunCharacterController.cpp
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-RunnerOutbreak-3110.lib
+[2024.01.30-11.39.37:368][205]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-3110.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-3110.exp
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-RunnerOutbreak-3110.dll
+[2024.01.30-11.39.37:368][205]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-3110.sup.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-3110.sup.exp
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: [4/4] WriteMetadata RunnerOutbreakEditor.target
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: Total time in Parallel executor: 7.70 seconds
+[2024.01.30-11.39.37:368][205]CompilerResultsLog: Total execution time: 8.40 seconds
+[2024.01.30-11.39.37:368][205]LogMainFrame: MainFrame: Module compiling took 8.643 seconds
+[2024.01.30-11.39.37:377][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.01.30-11.39.38:127][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.01.30-11.39.38:151][205]Display: HotReload took  9.4s.
+[2024.01.30-11.39.38:151][205]Display: Reload/Re-instancing Complete: 1 package changed, 12 classes unchanged, 16 functions remapped
+[2024.01.30-11.39.41:460][389]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.30-11.39.41:467][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.30-11.39.41:468][389]PIE: New page: PIE session: TempLevel (30 janv. 2024 à 13:39:41)
+[2024.01.30-11.39.41:468][389]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.39.41:469][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001424s)
+[2024.01.30-11.39.41:469][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TempLevel.TempLevel to /Game/Levels/UEDPIE_0_TempLevel.TempLevel (0.001456s)
+[2024.01.30-11.39.41:521][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.01.30-11.39.41:526][389]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.39.41:526][389]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.39.41:527][389]LogAIModule: Creating AISystem for world TempLevel
+[2024.01.30-11.39.41:527][389]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2024.01.30-11.39.41:527][389]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.01.30-11.39.41:527][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.30-11.39.41:527][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.30-11.39.41:527][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.30-11.39.41:527][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.30-11.39.41:527][389]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.30-11.39.41:527][389]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.30-11.39.41:527][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.30-11.39.41:527][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.30-11.39.41:528][389]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.30-11.39.41:528][389]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.30-11.39.41:528][389]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.30-11.39.41:530][389]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.30-11.39.41:550][389]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.30-11.39.41:550][389]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.30-11.39.41:550][389]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.30-11.39.41:550][389]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.30-11.39.41:551][389]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.01.30-11.39.41:551][389]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.01.30-11.39.41:554][389]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.01.30-11.39.41:554][389]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.01.30-11.39.41:554][389]LogInit: FAudioDevice initialized with ID 9.
+[2024.01.30-11.39.41:554][389]LogAudio: Display: Audio Device (ID: 9) registered with world 'TempLevel'.
+[2024.01.30-11.39.41:554][389]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.30-11.39.41:557][389]LogLoad: Game class is 'BP_RunCharacterGameMode_C'
+[2024.01.30-11.39.41:558][389]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TempLevel.TempLevel up for play (max tick rate 60) at 2024.01.30-12.39.41
+[2024.01.30-11.39.41:558][389]LogWorld: Bringing up level for play took: 0.000801
+[2024.01.30-11.39.41:559][389]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.01.30-11.39.41:561][389]PIE: Server logged in
+[2024.01.30-11.39.41:561][389]PIE: Play in editor total start time 0,095 seconds.
+[2024.01.30-11.39.52:954][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.39.52:954][ 67]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.39.52:954][ 67]LogWorld: UWorld::CleanupWorld for TempLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.39.52:955][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.39.52:958][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.30-11.39.52:960][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.39.52:973][ 67]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.30-11.39.52:973][ 67]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.30-11.39.52:973][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.30-11.39.52:976][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.30-11.39.52:979][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.39.52:996][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.30-11.39.53:052][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.01.30-11.41.51:625][663]Candidate modules for hot reload:
+[2024.01.30-11.41.51:625][663]  RunnerOutbreak
+[2024.01.30-11.41.51:630][663]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=RunnerOutbreak,0138 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk]
+[2024.01.30-11.41.51:656][663]Warning: Starting HotReload took  0.1s.
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: New page: Compilation - 30 janv. 2024 à 13:42:03
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=RunnerOutbreak,0138 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: Log file: C:\Users\fifam\AppData\Local\UnrealBuildTool\Log.txt
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi).
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: Building RunnerOutbreakEditor...
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: Using Visual Studio 2022 14.36.32544 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: [Adaptive Build] Excluded from RunnerOutbreak unity file: RunCharacter.cpp, RunCharacterController.cpp, Weapon.cpp
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+[2024.01.30-11.42.03:452][364]CompilerResultsLog:   Executing up to 14 processes, one per physical core
+[2024.01.30-11.42.03:452][364]CompilerResultsLog:   Requested 1.5 GB memory per action, 15.69 GB available: limiting max parallel actions to 10
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: [1/4] Compile [x64] RunCharacter.cpp
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-RunnerOutbreak-0138.lib
+[2024.01.30-11.42.03:452][364]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-0138.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-0138.exp
+[2024.01.30-11.42.03:452][364]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-RunnerOutbreak-0138.dll
+[2024.01.30-11.42.03:453][364]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-0138.sup.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-0138.sup.exp
+[2024.01.30-11.42.03:453][364]CompilerResultsLog: [4/4] WriteMetadata RunnerOutbreakEditor.target
+[2024.01.30-11.42.03:453][364]CompilerResultsLog: Total time in Parallel executor: 10.94 seconds
+[2024.01.30-11.42.03:453][364]CompilerResultsLog: Total execution time: 11.63 seconds
+[2024.01.30-11.42.03:453][364]LogMainFrame: MainFrame: Module compiling took 11.850 seconds
+[2024.01.30-11.42.03:465][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.01.30-11.42.04:471][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.01.30-11.42.04:497][364]Display: HotReload took 12.9s.
+[2024.01.30-11.42.04:497][364]Display: Reload/Re-instancing Complete: 1 package changed, 12 classes unchanged, 16 functions remapped
+[2024.01.30-11.42.08:186][568]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.30-11.42.08:191][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.30-11.42.08:191][568]PIE: New page: PIE session: TempLevel (30 janv. 2024 à 13:42:08)
+[2024.01.30-11.42.08:191][568]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.42.08:193][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001593s)
+[2024.01.30-11.42.08:193][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TempLevel.TempLevel to /Game/Levels/UEDPIE_0_TempLevel.TempLevel (0.001624s)
+[2024.01.30-11.42.08:238][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.01.30-11.42.08:244][568]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.42.08:244][568]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.42.08:245][568]LogAIModule: Creating AISystem for world TempLevel
+[2024.01.30-11.42.08:245][568]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2024.01.30-11.42.08:245][568]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.01.30-11.42.08:245][568]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.30-11.42.08:245][568]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.30-11.42.08:245][568]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.30-11.42.08:245][568]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.30-11.42.08:245][568]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.30-11.42.08:245][568]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.30-11.42.08:245][568]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.30-11.42.08:245][568]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.30-11.42.08:246][568]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.30-11.42.08:246][568]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.30-11.42.08:246][568]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.30-11.42.08:248][568]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.30-11.42.08:269][568]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.30-11.42.08:270][568]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.30-11.42.08:270][568]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.30-11.42.08:270][568]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.30-11.42.08:271][568]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.01.30-11.42.08:271][568]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.01.30-11.42.08:274][568]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.01.30-11.42.08:274][568]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.01.30-11.42.08:274][568]LogInit: FAudioDevice initialized with ID 10.
+[2024.01.30-11.42.08:274][568]LogAudio: Display: Audio Device (ID: 10) registered with world 'TempLevel'.
+[2024.01.30-11.42.08:274][568]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.01.30-11.42.08:276][568]LogLoad: Game class is 'BP_RunCharacterGameMode_C'
+[2024.01.30-11.42.08:277][568]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TempLevel.TempLevel up for play (max tick rate 60) at 2024.01.30-12.42.08
+[2024.01.30-11.42.08:277][568]LogWorld: Bringing up level for play took: 0.000833
+[2024.01.30-11.42.08:279][568]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.01.30-11.42.08:281][568]PIE: Server logged in
+[2024.01.30-11.42.08:282][568]PIE: Play in editor total start time 0,091 seconds.
+[2024.01.30-11.42.14:544][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.42.14:544][937]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.42.14:544][937]LogWorld: UWorld::CleanupWorld for TempLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.42.14:545][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.42.14:548][937]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.30-11.42.14:550][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.42.14:562][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.42.14:564][937]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.01.30-11.42.14:564][937]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.01.30-11.42.14:572][937]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.01.30-11.42.14:591][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.01.30-11.42.14:657][938]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.01.30-11.43.29:846][286]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.3.2-29314046+++UE5+Release-5.3
+[2024.01.30-11.43.30:096][286]LogAnalyticsSessionSummarySender: Sent summary session report for: AppId=UEEditor.Rocket.Release SessionId={EB817796-4AEB-A1E8-29D9-638316D2CA2B}
+[2024.01.30-11.44.40:309][542]Candidate modules for hot reload:
+[2024.01.30-11.44.40:309][542]  RunnerOutbreak
+[2024.01.30-11.44.40:316][542]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=RunnerOutbreak,5692 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk]
+[2024.01.30-11.44.40:332][542]Warning: Starting HotReload took  0.1s.
+[2024.01.30-11.44.50:566][149]CompilerResultsLog: New page: Compilation - 30 janv. 2024 à 13:44:50
+[2024.01.30-11.44.50:566][149]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.01.30-11.44.50:566][149]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=RunnerOutbreak,5692 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk
+[2024.01.30-11.44.50:567][149]CompilerResultsLog: Log file: C:\Users\fifam\AppData\Local\UnrealBuildTool\Log.txt
+[2024.01.30-11.44.50:567][149]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi).
+[2024.01.30-11.44.50:568][149]CompilerResultsLog: Creating makefile for RunnerOutbreakEditor (command line arguments changed)
+[2024.01.30-11.44.50:568][149]CompilerResultsLog: Building RunnerOutbreakEditor...
+[2024.01.30-11.44.50:568][149]CompilerResultsLog: Using Visual Studio 2022 14.36.32544 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.30-11.44.50:568][149]CompilerResultsLog: [Adaptive Build] Excluded from RunnerOutbreak unity file: RunCharacter.cpp, RunCharacterController.cpp, Weapon.cpp
+[2024.01.30-11.44.50:568][149]CompilerResultsLog: Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+[2024.01.30-11.44.50:568][149]CompilerResultsLog:   Executing up to 14 processes, one per physical core
+[2024.01.30-11.44.50:568][149]CompilerResultsLog:   Requested 1.5 GB memory per action, 2.98 GB available: limiting max parallel actions to 1
+[2024.01.30-11.44.50:568][149]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2024.01.30-11.44.50:568][149]CompilerResultsLog: [1/4] Compile [x64] RunCharacter.cpp
+[2024.01.30-11.44.50:568][149]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-RunnerOutbreak-5692.dll
+[2024.01.30-11.44.50:568][149]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-5692.sup.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-5692.sup.exp
+[2024.01.30-11.44.50:571][149]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-RunnerOutbreak-5692.lib
+[2024.01.30-11.44.50:571][149]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-5692.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-5692.exp
+[2024.01.30-11.44.50:571][149]CompilerResultsLog: [4/4] WriteMetadata RunnerOutbreakEditor.target
+[2024.01.30-11.44.50:571][149]CompilerResultsLog: Total time in Parallel executor: 8.10 seconds
+[2024.01.30-11.44.50:571][149]CompilerResultsLog: Total execution time: 10.06 seconds
+[2024.01.30-11.44.50:571][149]LogMainFrame: MainFrame: Module compiling took 10.288 seconds
+[2024.01.30-11.44.50:587][149]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2024.01.30-11.44.51:811][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.01.30-11.44.51:842][149]Display: HotReload took 11.6s.
+[2024.01.30-11.44.51:842][149]Display: Reload/Re-instancing Complete: 1 package changed, 12 classes unchanged, 16 functions remapped
+[2024.01.30-11.45.00:008][621]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.30-11.45.00:015][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.30-11.45.00:015][621]PIE: New page: PIE session: TempLevel (30 janv. 2024 à 13:45:00)
+[2024.01.30-11.45.00:015][621]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.45.00:017][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001606s)
+[2024.01.30-11.45.00:017][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TempLevel.TempLevel to /Game/Levels/UEDPIE_0_TempLevel.TempLevel (0.001643s)
+[2024.01.30-11.45.00:084][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2024.01.30-11.45.00:089][621]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.45.00:089][621]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.45.00:090][621]LogAIModule: Creating AISystem for world TempLevel
+[2024.01.30-11.45.00:090][621]LogPlayLevel: PIE: World Init took: (0.001537s)
+[2024.01.30-11.45.00:090][621]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.01.30-11.45.00:090][621]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.30-11.45.00:090][621]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.30-11.45.00:090][621]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.30-11.45.00:090][621]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.30-11.45.00:090][621]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.30-11.45.00:090][621]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.30-11.45.00:090][621]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.30-11.45.00:090][621]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.30-11.45.00:091][621]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.30-11.45.00:091][621]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.30-11.45.00:091][621]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.30-11.45.00:093][621]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.30-11.45.00:115][621]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.30-11.45.00:115][621]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.30-11.45.00:115][621]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.30-11.45.00:115][621]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.30-11.45.00:117][621]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.01.30-11.45.00:117][621]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.01.30-11.45.00:118][621]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.01.30-11.45.00:118][621]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.01.30-11.45.00:118][621]LogInit: FAudioDevice initialized with ID 11.
+[2024.01.30-11.45.00:118][621]LogAudio: Display: Audio Device (ID: 11) registered with world 'TempLevel'.
+[2024.01.30-11.45.00:118][621]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.01.30-11.45.00:121][621]LogLoad: Game class is 'BP_RunCharacterGameMode_C'
+[2024.01.30-11.45.00:122][621]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TempLevel.TempLevel up for play (max tick rate 60) at 2024.01.30-12.45.00
+[2024.01.30-11.45.00:123][621]LogWorld: Bringing up level for play took: 0.001075
+[2024.01.30-11.45.00:125][621]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.01.30-11.45.00:127][621]PIE: Server logged in
+[2024.01.30-11.45.00:128][621]PIE: Play in editor total start time 0,113 seconds.
+[2024.01.30-11.45.17:144][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.45.17:145][634]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.45.17:145][634]LogWorld: UWorld::CleanupWorld for TempLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.45.17:145][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.45.17:154][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.30-11.45.17:156][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.45.17:169][634]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.30-11.45.17:172][634]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.01.30-11.45.17:172][634]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.01.30-11.45.17:176][634]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.01.30-11.45.17:183][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.45.17:200][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2024.01.30-11.45.17:280][635]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.01.30-11.48.55:725][767]Candidate modules for hot reload:
+[2024.01.30-11.48.55:725][767]  RunnerOutbreak
+[2024.01.30-11.48.55:731][767]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=RunnerOutbreak,1979 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk]
+[2024.01.30-11.48.55:747][767]Warning: Starting HotReload took  0.1s.
+[2024.01.30-11.49.07:623][474]CompilerResultsLog: New page: Compilation - 30 janv. 2024 à 13:49:07
+[2024.01.30-11.49.07:623][474]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.01.30-11.49.07:623][474]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=RunnerOutbreak,1979 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk
+[2024.01.30-11.49.07:623][474]CompilerResultsLog: Log file: C:\Users\fifam\AppData\Local\UnrealBuildTool\Log.txt
+[2024.01.30-11.49.07:623][474]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi).
+[2024.01.30-11.49.07:623][474]CompilerResultsLog: Creating makefile for RunnerOutbreakEditor (command line arguments changed)
+[2024.01.30-11.49.07:623][474]CompilerResultsLog: Building RunnerOutbreakEditor...
+[2024.01.30-11.49.07:623][474]CompilerResultsLog: Using Visual Studio 2022 14.36.32544 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.30-11.49.07:623][474]CompilerResultsLog: [Adaptive Build] Excluded from RunnerOutbreak unity file: RunCharacter.cpp, RunCharacterController.cpp, Weapon.cpp
+[2024.01.30-11.49.07:623][474]CompilerResultsLog: Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+[2024.01.30-11.49.07:623][474]CompilerResultsLog:   Executing up to 14 processes, one per physical core
+[2024.01.30-11.49.07:624][474]CompilerResultsLog:   Requested 1.5 GB memory per action, 2.98 GB available: limiting max parallel actions to 1
+[2024.01.30-11.49.07:624][474]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2024.01.30-11.49.07:624][474]CompilerResultsLog: [1/4] Compile [x64] RunCharacter.cpp
+[2024.01.30-11.49.07:624][474]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-RunnerOutbreak-1979.dll
+[2024.01.30-11.49.07:624][474]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-1979.sup.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-1979.sup.exp
+[2024.01.30-11.49.07:624][474]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-RunnerOutbreak-1979.lib
+[2024.01.30-11.49.07:624][474]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-1979.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-1979.exp
+[2024.01.30-11.49.07:624][474]CompilerResultsLog: [4/4] WriteMetadata RunnerOutbreakEditor.target
+[2024.01.30-11.49.07:624][474]CompilerResultsLog: Total time in Parallel executor: 9.76 seconds
+[2024.01.30-11.49.07:624][474]CompilerResultsLog: Total execution time: 11.68 seconds
+[2024.01.30-11.49.07:624][474]LogMainFrame: MainFrame: Module compiling took 11.927 seconds
+[2024.01.30-11.49.07:640][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.01.30-11.49.08:840][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.01.30-11.49.08:871][474]Display: HotReload took 13.2s.
+[2024.01.30-11.49.08:871][474]Display: Reload/Re-instancing Complete: 1 package changed, 12 classes unchanged, 16 functions remapped
+[2024.01.30-11.49.11:802][634]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.30-11.49.11:809][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.30-11.49.11:809][634]PIE: New page: PIE session: TempLevel (30 janv. 2024 à 13:49:11)
+[2024.01.30-11.49.11:810][634]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.49.11:811][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001808s)
+[2024.01.30-11.49.11:811][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TempLevel.TempLevel to /Game/Levels/UEDPIE_0_TempLevel.TempLevel (0.001844s)
+[2024.01.30-11.49.11:863][634]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2024.01.30-11.49.11:868][634]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.49.11:868][634]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.49.11:868][634]LogAIModule: Creating AISystem for world TempLevel
+[2024.01.30-11.49.11:868][634]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2024.01.30-11.49.11:869][634]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.01.30-11.49.11:869][634]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.30-11.49.11:869][634]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.30-11.49.11:869][634]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.30-11.49.11:869][634]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.30-11.49.11:869][634]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.30-11.49.11:869][634]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.30-11.49.11:869][634]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.30-11.49.11:869][634]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.30-11.49.11:869][634]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.30-11.49.11:869][634]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.30-11.49.11:869][634]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.30-11.49.11:872][634]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.30-11.49.11:894][634]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.30-11.49.11:894][634]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.30-11.49.11:894][634]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.30-11.49.11:894][634]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.30-11.49.11:895][634]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.01.30-11.49.11:895][634]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.01.30-11.49.11:898][634]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.01.30-11.49.11:898][634]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.01.30-11.49.11:898][634]LogInit: FAudioDevice initialized with ID 12.
+[2024.01.30-11.49.11:898][634]LogAudio: Display: Audio Device (ID: 12) registered with world 'TempLevel'.
+[2024.01.30-11.49.11:898][634]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.30-11.49.11:901][634]LogLoad: Game class is 'BP_RunCharacterGameMode_C'
+[2024.01.30-11.49.11:902][634]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TempLevel.TempLevel up for play (max tick rate 60) at 2024.01.30-12.49.11
+[2024.01.30-11.49.11:902][634]LogWorld: Bringing up level for play took: 0.000913
+[2024.01.30-11.49.11:905][634]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.01.30-11.49.11:907][634]PIE: Server logged in
+[2024.01.30-11.49.11:907][634]PIE: Play in editor total start time 0,097 seconds.
+[2024.01.30-11.49.25:489][438]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.26:380][491]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.26:578][503]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.27:044][531]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.27:279][545]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.27:494][558]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.27:574][563]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=12
+[2024.01.30-11.49.27:677][569]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.27:827][578]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.27:994][588]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.28:177][599]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.28:378][611]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.28:610][625]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.28:797][636]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.29:326][666]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.29:510][677]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.29:677][687]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.29:840][696]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.30:023][707]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.30:224][719]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.30:407][730]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.30:589][741]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.30:843][756]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.31:971][822]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.32:171][834]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.32:371][846]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.32:588][859]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.32:789][871]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.33:006][884]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.33:654][923]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.34:454][971]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.34:671][984]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.34:854][995]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.35:020][  5]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.35:206][ 16]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.35:387][ 27]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.36:588][ 99]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.37:840][174]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.38:358][205]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.38:703][226]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.38:970][242]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.39:220][257]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.39:487][273]LogBlueprintUserMessages: [BP_Gun_C_0] Hello
+[2024.01.30-11.49.39:955][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.49.39:955][299]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.49.39:955][299]LogWorld: UWorld::CleanupWorld for TempLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.49.39:955][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.49.39:968][299]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.30-11.49.39:971][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.49.39:978][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.49.39:978][299]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.30-11.49.39:978][299]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.30-11.49.39:980][299]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.30-11.49.39:995][299]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.01.30-11.49.40:072][300]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.01.30-11.51.07:672][532]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.30-11.51.07:837][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Weapon/BP_Gun" FILE="../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Gun.uasset" SILENT=true
+[2024.01.30-11.51.07:860][532]LogSavePackage: Moving output files for package: /Game/Actors/Weapon/BP_Gun
+[2024.01.30-11.51.07:861][532]LogSavePackage: Moving '../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Saved/BP_Gun6DBF43DA4304E9B584A23CB014DDF3D5.tmp' to '../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Gun.uasset'
+[2024.01.30-11.51.07:877][532]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 997 ms)
+[2024.01.30-11.51.07:884][532]AssetCheck: New page: Asset Save: BP_Gun
+[2024.01.30-11.51.07:884][532]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Actors/Weapon/BP_Gun.BP_Gun
+[2024.01.30-11.51.11:830][759]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Actors/Weapon/BP_Rifle.BP_Rifle
+[2024.01.30-11.51.11:832][759]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.51.11:833][759]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.51.12:211][761]LogShaderCompilers: Display: ================================================
+[2024.01.30-11.51.12:211][761]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.30-11.51.12:212][761]LogShaderCompilers: Display: Total job queries 49, among them cache hits 4 (8.16%)
+[2024.01.30-11.51.12:212][761]LogShaderCompilers: Display: Tracking 45 distinct input hashes that result in 25 distinct outputs (55.56%)
+[2024.01.30-11.51.12:212][761]LogShaderCompilers: Display: RAM used: 1,12 MiB of 819,20 MiB budget. Usage: 0.14%
+[2024.01.30-11.51.12:212][761]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.30-11.51.12:212][761]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.30-11.51.12:212][761]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.30-11.51.12:212][761]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.30-11.51.12:212][761]LogShaderCompilers: Display: ================================================
+[2024.01.30-11.51.12:345][764]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.51.13:985][861]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.51.13:985][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.51.14:010][861]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Actors/Weapon/BP_Rifle.BP_Rifle
+[2024.01.30-11.51.14:010][861]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.51.14:010][861]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.51.22:487][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.30-11.51.22:618][354]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.51.22:661][354]LogSavePackage: Moving output files for package: /Game/Actors/Weapon/BP_Rifle
+[2024.01.30-11.51.22:661][354]LogSavePackage: Moving '../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Saved/BP_Rifle3667E0DB442B1065E395A3A6D1E65B51.tmp' to '../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Rifle.uasset'
+[2024.01.30-11.51.22:675][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 1.18 sec)
+[2024.01.30-11.51.22:677][354]AssetCheck: New page: Asset Save: BP_Rifle
+[2024.01.30-11.51.22:677][354]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Actors/Weapon/BP_Rifle.BP_Rifle
+[2024.01.30-11.51.23:519][404]BlueprintLog: New page: Compile BP_Rifle
+[2024.01.30-11.51.23:564][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.30-11.51.24:828][478]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.30-11.51.24:966][478]LogSavePackage: Moving output files for package: /Game/Actors/Weapon/BP_Rifle
+[2024.01.30-11.51.24:966][478]LogSavePackage: Moving '../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Saved/BP_RifleE741968A46AA82C30E3B3B9D42681ED4.tmp' to '../../../../../../Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Rifle.uasset'
+[2024.01.30-11.51.24:976][478]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 1.33 sec)
+[2024.01.30-11.51.24:978][478]AssetCheck: New page: Asset Save: BP_Rifle
+[2024.01.30-11.51.24:978][478]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Actors/Weapon/BP_Rifle.BP_Rifle
+[2024.01.30-11.51.44:802][208]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.30-11.51.44:808][208]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.30-11.51.44:809][208]LogPlayLevel: [PlayLevel] Compiling BP_Gun before play...
+[2024.01.30-11.51.44:882][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.01.30-11.51.44:885][208]LogPlayLevel: PlayLevel: Blueprint regeneration took 77 ms (1 blueprints)
+[2024.01.30-11.51.44:885][208]PIE: New page: PIE session: TempLevel (30 janv. 2024 à 13:51:44)
+[2024.01.30-11.51.44:885][208]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.51.44:887][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001636s)
+[2024.01.30-11.51.44:887][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TempLevel.TempLevel to /Game/Levels/UEDPIE_0_TempLevel.TempLevel (0.001674s)
+[2024.01.30-11.51.44:897][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.01.30-11.51.44:898][208]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.51.44:898][208]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.51.44:899][208]LogAIModule: Creating AISystem for world TempLevel
+[2024.01.30-11.51.44:899][208]LogPlayLevel: PIE: World Init took: (0.001372s)
+[2024.01.30-11.51.44:899][208]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.01.30-11.51.44:899][208]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.30-11.51.44:899][208]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.30-11.51.44:899][208]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.30-11.51.44:899][208]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.30-11.51.44:899][208]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.30-11.51.44:899][208]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.30-11.51.44:899][208]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.30-11.51.44:899][208]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.30-11.51.44:899][208]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.30-11.51.44:899][208]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.30-11.51.44:900][208]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.30-11.51.44:902][208]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.30-11.51.44:924][208]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.30-11.51.44:925][208]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.30-11.51.44:925][208]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.30-11.51.44:925][208]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.30-11.51.44:926][208]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.01.30-11.51.44:926][208]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.01.30-11.51.44:928][208]LogInit: FAudioDevice initialized with ID 13.
+[2024.01.30-11.51.44:928][208]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.01.30-11.51.44:928][208]LogAudio: Display: Audio Device (ID: 13) registered with world 'TempLevel'.
+[2024.01.30-11.51.44:928][208]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.01.30-11.51.44:928][208]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.30-11.51.44:930][208]LogLoad: Game class is 'BP_RunCharacterGameMode_C'
+[2024.01.30-11.51.44:931][208]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TempLevel.TempLevel up for play (max tick rate 60) at 2024.01.30-12.51.44
+[2024.01.30-11.51.44:931][208]LogWorld: Bringing up level for play took: 0.000890
+[2024.01.30-11.51.44:934][208]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.01.30-11.51.44:936][208]PIE: Server logged in
+[2024.01.30-11.51.44:936][208]PIE: Play in editor total start time 0,129 seconds.
+[2024.01.30-11.51.47:725][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.51.47:725][368]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.51.47:725][368]LogWorld: UWorld::CleanupWorld for TempLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.51.47:725][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.51.47:732][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.30-11.51.47:735][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.51.47:750][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.51.47:750][368]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.30-11.51.47:750][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.30-11.51.47:752][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.30-11.51.47:758][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.01.30-11.51.47:809][369]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.01.30-11.52.32:356][890]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.30-11.52.32:363][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.30-11.52.32:363][890]PIE: New page: PIE session: TempLevel (30 janv. 2024 à 13:52:32)
+[2024.01.30-11.52.32:363][890]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.52.32:364][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001493s)
+[2024.01.30-11.52.32:364][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TempLevel.TempLevel to /Game/Levels/UEDPIE_0_TempLevel.TempLevel (0.001527s)
+[2024.01.30-11.52.32:375][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.01.30-11.52.32:376][890]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.52.32:376][890]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.52.32:377][890]LogAIModule: Creating AISystem for world TempLevel
+[2024.01.30-11.52.32:377][890]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2024.01.30-11.52.32:377][890]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.01.30-11.52.32:377][890]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.30-11.52.32:377][890]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.30-11.52.32:377][890]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.30-11.52.32:377][890]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.30-11.52.32:377][890]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.30-11.52.32:377][890]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.30-11.52.32:377][890]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.30-11.52.32:377][890]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.30-11.52.32:377][890]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.30-11.52.32:378][890]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.30-11.52.32:378][890]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.30-11.52.32:380][890]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.30-11.52.32:400][890]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.30-11.52.32:402][890]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.30-11.52.32:402][890]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.30-11.52.32:402][890]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.30-11.52.32:403][890]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.01.30-11.52.32:403][890]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.01.30-11.52.32:404][890]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.01.30-11.52.32:404][890]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.01.30-11.52.32:404][890]LogInit: FAudioDevice initialized with ID 14.
+[2024.01.30-11.52.32:404][890]LogAudio: Display: Audio Device (ID: 14) registered with world 'TempLevel'.
+[2024.01.30-11.52.32:404][890]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.01.30-11.52.32:406][890]LogLoad: Game class is 'BP_RunCharacterGameMode_C'
+[2024.01.30-11.52.32:407][890]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TempLevel.TempLevel up for play (max tick rate 60) at 2024.01.30-12.52.32
+[2024.01.30-11.52.32:407][890]LogWorld: Bringing up level for play took: 0.001159
+[2024.01.30-11.52.32:409][890]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.01.30-11.52.32:412][890]PIE: Server logged in
+[2024.01.30-11.52.32:412][890]PIE: Play in editor total start time 0,049 seconds.
+[2024.01.30-11.52.34:855][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.52.34:856][ 31]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.52.34:856][ 31]LogWorld: UWorld::CleanupWorld for TempLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.52.34:856][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.52.34:860][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.30-11.52.34:862][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.52.34:869][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.52.34:869][ 31]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.01.30-11.52.34:869][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.01.30-11.52.34:871][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.01.30-11.52.34:877][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.01.30-11.52.34:927][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.01.30-11.52.36:534][125]Candidate modules for hot reload:
+[2024.01.30-11.52.36:535][125]  RunnerOutbreak
+[2024.01.30-11.52.36:540][125]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=RunnerOutbreak,0950 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk]
+[2024.01.30-11.52.36:557][125]Warning: Starting HotReload took  0.1s.
+[2024.01.30-11.52.46:675][537]CompilerResultsLog: New page: Compilation - 30 janv. 2024 à 13:52:46
+[2024.01.30-11.52.46:675][537]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.01.30-11.52.46:675][537]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=RunnerOutbreak,0950 RunnerOutbreakEditor Win64 Development -Project="C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject" "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/RunnerOutbreak.uproject"  -IgnoreJunk
+[2024.01.30-11.52.46:676][537]CompilerResultsLog: Log file: C:\Users\fifam\AppData\Local\UnrealBuildTool\Log.txt
+[2024.01.30-11.52.46:676][537]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi).
+[2024.01.30-11.52.46:676][537]CompilerResultsLog: Building RunnerOutbreakEditor...
+[2024.01.30-11.52.46:676][537]CompilerResultsLog: Using Visual Studio 2022 14.36.32544 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.30-11.52.46:677][537]CompilerResultsLog: [Adaptive Build] Excluded from RunnerOutbreak unity file: RunCharacter.cpp, RunCharacterController.cpp, Weapon.cpp
+[2024.01.30-11.52.46:679][537]CompilerResultsLog: Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+[2024.01.30-11.52.46:687][537]CompilerResultsLog:   Executing up to 14 processes, one per physical core
+[2024.01.30-11.52.46:687][537]CompilerResultsLog:   Requested 1.5 GB memory per action, 15.69 GB available: limiting max parallel actions to 10
+[2024.01.30-11.52.46:687][537]CompilerResultsLog: ------ Building 5 action(s) started ------
+[2024.01.30-11.52.46:687][537]CompilerResultsLog: [1/5] Compile [x64] RunCharacter.cpp
+[2024.01.30-11.52.46:687][537]CompilerResultsLog: [2/5] Compile [x64] RunCharacterController.cpp
+[2024.01.30-11.52.46:687][537]CompilerResultsLog: [3/5] Link [x64] UnrealEditor-RunnerOutbreak-0950.lib
+[2024.01.30-11.52.46:687][537]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-0950.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-0950.exp
+[2024.01.30-11.52.46:688][537]CompilerResultsLog: [4/5] Link [x64] UnrealEditor-RunnerOutbreak-0950.dll
+[2024.01.30-11.52.46:688][537]CompilerResultsLog:    Cr?ation de la biblioth?que C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-0950.sup.lib et de l'objet C:\Users\fifam\Projets\G-TECH3\Unreal C++ BP\Runner_Sci_Fi\RunnerOutbreak\Intermediate\Build\Win64\x64\UnrealEditor\Development\RunnerOutbreak\UnrealEditor-RunnerOutbreak-0950.sup.exp
+[2024.01.30-11.52.46:688][537]CompilerResultsLog: [5/5] WriteMetadata RunnerOutbreakEditor.target
+[2024.01.30-11.52.46:688][537]CompilerResultsLog: Total time in Parallel executor: 8.85 seconds
+[2024.01.30-11.52.46:688][537]CompilerResultsLog: Total execution time: 9.79 seconds
+[2024.01.30-11.52.46:688][537]LogMainFrame: MainFrame: Module compiling took 10.166 seconds
+[2024.01.30-11.52.46:688][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.01.30-11.52.47:781][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.01.30-11.52.47:813][537]Display: HotReload took 11.3s.
+[2024.01.30-11.52.47:813][537]Display: Reload/Re-instancing Complete: 1 package changed, 12 classes unchanged, 16 functions remapped
+[2024.01.30-11.54.16:093][419]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.30-11.54.16:101][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.30-11.54.16:101][419]PIE: New page: PIE session: TempLevel (30 janv. 2024 à 13:54:16)
+[2024.01.30-11.54.16:102][419]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.54.16:103][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001640s)
+[2024.01.30-11.54.16:103][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TempLevel.TempLevel to /Game/Levels/UEDPIE_0_TempLevel.TempLevel (0.001698s)
+[2024.01.30-11.54.16:153][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.01.30-11.54.16:157][419]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.30-11.54.16:157][419]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.30-11.54.16:157][419]LogAIModule: Creating AISystem for world TempLevel
+[2024.01.30-11.54.16:158][419]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2024.01.30-11.54.16:158][419]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.01.30-11.54.16:158][419]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.30-11.54.16:158][419]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.30-11.54.16:158][419]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.30-11.54.16:158][419]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.30-11.54.16:158][419]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.30-11.54.16:158][419]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.30-11.54.16:158][419]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.30-11.54.16:158][419]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.30-11.54.16:158][419]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.30-11.54.16:158][419]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.30-11.54.16:158][419]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.30-11.54.16:161][419]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.30-11.54.16:182][419]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.30-11.54.16:182][419]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.30-11.54.16:182][419]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.30-11.54.16:182][419]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.30-11.54.16:183][419]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.01.30-11.54.16:183][419]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.01.30-11.54.16:185][419]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.01.30-11.54.16:186][419]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.01.30-11.54.16:186][419]LogInit: FAudioDevice initialized with ID 15.
+[2024.01.30-11.54.16:186][419]LogAudio: Display: Audio Device (ID: 15) registered with world 'TempLevel'.
+[2024.01.30-11.54.16:186][419]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.01.30-11.54.16:188][419]LogLoad: Game class is 'BP_RunCharacterGameMode_C'
+[2024.01.30-11.54.16:189][419]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TempLevel.TempLevel up for play (max tick rate 60) at 2024.01.30-12.54.16
+[2024.01.30-11.54.16:189][419]LogWorld: Bringing up level for play took: 0.001139
+[2024.01.30-11.54.16:191][419]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.01.30-11.54.16:193][419]PIE: Server logged in
+[2024.01.30-11.54.16:194][419]PIE: Play in editor total start time 0,094 seconds.
+[2024.01.30-11.54.21:505][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.54.21:505][732]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TempLevel
+[2024.01.30-11.54.21:505][732]LogWorld: UWorld::CleanupWorld for TempLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.30-11.54.21:505][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.54.21:508][732]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.30-11.54.21:512][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.30-11.54.21:522][732]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.30-11.54.21:530][732]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.01.30-11.54.21:530][732]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.01.30-11.54.21:537][732]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.01.30-11.54.21:541][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.30-11.54.21:559][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.01.30-11.54.21:620][733]LogPlayLevel: Display: Destroying online subsystem :Context_39

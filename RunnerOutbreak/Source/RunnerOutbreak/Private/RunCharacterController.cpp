@@ -2,6 +2,7 @@
 
 
 #include "RunCharacterController.h"
+#include "Weapon.h"
 #include "RunCharacter.h"
 
 void ARunCharacterController::BeginPlay()
@@ -25,6 +26,7 @@ void ARunCharacterController::SetupInputComponent()
 	InputComponent->BindAxis("LookUp", this, &ARunCharacterController::LookUp);
 	InputComponent->BindAxis("LookRight", this, &ARunCharacterController::LookRight);
 	InputComponent->BindAction("Jump", EInputEvent::IE_Pressed, this, &ARunCharacterController::Jump);
+	InputComponent->BindAction("Fire", EInputEvent::IE_Pressed, this, &ARunCharacterController::Fire);
 }
 
 void ARunCharacterController::MoveRight(float offset)
@@ -48,5 +50,14 @@ void ARunCharacterController::LookRight(float offset)
 void ARunCharacterController::Jump()
 {
 	runCharacter->Jump();
+}
+
+void ARunCharacterController::Fire()
+{
+	
+	AWeapon* weapon = runCharacter->GetWeapon();
+	if (weapon) {
+		weapon->Fire();
+	}
 }
 

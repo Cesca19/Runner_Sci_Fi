@@ -29,4 +29,6 @@ private:
 	void LookRight(float offset);
 	UFUNCTION()
 	void Jump();
+	UFUNCTION()
+	void Fire();
 };

@@ -15,6 +15,11 @@ AWeapon::AWeapon()
 	SetRootComponent(Mesh);
 }
 
+void AWeapon::Fire()
+{
+	OnFire();
+}
+
 // Called when the game starts or when spawned
 void AWeapon::BeginPlay()
 {

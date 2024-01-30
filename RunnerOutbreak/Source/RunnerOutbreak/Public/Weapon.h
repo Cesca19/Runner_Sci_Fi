@@ -15,6 +15,11 @@ public:
 	// Sets default values for this actor's properties
 	AWeapon();
 	
+	UFUNCTION()
+	virtual void Fire();
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnFire();
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	
