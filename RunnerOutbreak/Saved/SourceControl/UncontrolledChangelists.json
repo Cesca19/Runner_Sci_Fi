@@ -29,6 +29,12 @@
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Ressources/Rifle/Mesh/SK_Rifle_PhysicsAsset.uasset",
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Ressources/Rifle/Mesh/SK_Rifle_Skeleton.uasset",
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Ressources/Rifle/Mesh/SK_Rifle.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Animations/BS_RunCharacter.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Animations/ABP_RunCharacter.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Gun.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_PickUpGun.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_PickUpRifle.uasset",
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Actors/Weapon/BP_Rifle.uasset",
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/TopDownShooter/Ressources/Rifle/Mesh/SK_Rifle.uasset",
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/TopDownShooter/Ressources/Rifle/Mesh/SK_Rifle_Skeleton.uasset",
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/TopDownShooter/Ressources/Rifle/Mesh/SK_Rifle_PhysicsAsset.uasset",
@@ -41,9 +47,7 @@
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/TopDownShooter/Ressources/Rifle/Textures/T_Weapon_N.uasset",
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/TopDownShooter/Ressources/Rifle/Textures/T_Weapon_Mask.uasset",
 				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/TopDownShooter/Ressources/Rifle/Textures/T_Weapon_D.uasset",
-				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/TopDownShooter/Ressources/Rifle/Textures/T_Weapon_AORM.uasset",
-				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Animations/BS_RunCharacter.uasset",
-				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/Animations/ABP_RunCharacter.uasset"
+				"C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Content/TopDownShooter/Ressources/Rifle/Textures/T_Weapon_AORM.uasset"
 			]
 		}
 	]

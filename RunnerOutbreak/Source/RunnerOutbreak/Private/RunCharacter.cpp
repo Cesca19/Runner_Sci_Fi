@@ -32,9 +32,6 @@ void ARunCharacter::BeginPlay()
 	Weapon = NewObject<UChildActorComponent>(this);
 	Weapon->bEditableWhenInherited = true;
 	Weapon->RegisterComponent();
-	//Weapon->SetChildActorClass(AWeapon::StaticClass());
-	Weapon->SetRelativeTransform(FTransform());
-	//child->SetWorldTransform();
 	Weapon->CreateChildActor();
 	Weapon->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), FName(TEXT("WeaponSocket")));
 }

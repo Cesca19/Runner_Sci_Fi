@@ -14,7 +14,7 @@ class RUNNEROUTBREAK_API APickUpWeapon : public AActor
 public:	
 	// Sets default values for this actor's properties
 	APickUpWeapon();
-
+	
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnGet();
 

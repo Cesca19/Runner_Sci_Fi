@@ -3,6 +3,7 @@
 
 #include "Weapon.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Components/SceneComponent.h"
 #include "RunCharacter.h"
 
 // Sets default values
@@ -19,6 +20,7 @@ AWeapon::AWeapon()
 void AWeapon::BeginPlay()
 {
 	Super::BeginPlay();
+	Mesh->SetCollisionProfileName("NoCollision");
 }
 
 
