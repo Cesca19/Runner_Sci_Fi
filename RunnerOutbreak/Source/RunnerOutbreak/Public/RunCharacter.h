@@ -24,6 +24,8 @@ public:
 	FString GetWeaponName();
 	UFUNCTION(BlueprintCallable)
 	int GetWeaponAmmo();
+	UFUNCTION(BlueprintCallable)
+	float GetCurrentHealth();
 
 protected:
 	// Called when the game starts or when spawned
@@ -34,6 +36,8 @@ protected:
 	class UChildActorComponent* Weapon;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	class USkeletalMeshComponent* PlayerMesh;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	class UHealthComponent* HealthComponent;
 
 public:	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

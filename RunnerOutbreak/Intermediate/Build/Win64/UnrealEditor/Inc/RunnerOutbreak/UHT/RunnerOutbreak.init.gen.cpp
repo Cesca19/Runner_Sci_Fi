@@ -7,6 +7,8 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeRunnerOutbreak_init() {}
+	RUNNEROUTBREAK_API UFunction* Z_Construct_UDelegateFunction_RunnerOutbreak_OnHealthChange__DelegateSignature();
+	RUNNEROUTBREAK_API UFunction* Z_Construct_UDelegateFunction_RunnerOutbreak_OnHealthDepleted__DelegateSignature();
 	RUNNEROUTBREAK_API UFunction* Z_Construct_UDelegateFunction_RunnerOutbreak_OnPickUp__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_RunnerOutbreak;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_RunnerOutbreak()
@@ -14,6 +16,8 @@ void EmptyLinkFunctionForGeneratedCodeRunnerOutbreak_init() {}
 		if (!Z_Registration_Info_UPackage__Script_RunnerOutbreak.OuterSingleton)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_RunnerOutbreak_OnHealthChange__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_RunnerOutbreak_OnHealthDepleted__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_RunnerOutbreak_OnPickUp__DelegateSignature,
 			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
@@ -21,13 +25,13 @@ void EmptyLinkFunctionForGeneratedCodeRunnerOutbreak_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xD423C1B3,
-				0xB754120D,
+				0x41B59C9F,
+				0x987F4EFD,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_RunnerOutbreak.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_RunnerOutbreak.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_RunnerOutbreak(Z_Construct_UPackage__Script_RunnerOutbreak, TEXT("/Script/RunnerOutbreak"), Z_Registration_Info_UPackage__Script_RunnerOutbreak, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xD423C1B3, 0xB754120D));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_RunnerOutbreak(Z_Construct_UPackage__Script_RunnerOutbreak, TEXT("/Script/RunnerOutbreak"), Z_Registration_Info_UPackage__Script_RunnerOutbreak, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x41B59C9F, 0x987F4EFD));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -2,6 +2,7 @@
 
 
 #include "RunCharacter.h"
+#include "HealthComponent.h"
 #include "Weapon.h"
 #include "Camera/CameraComponent.h"
 #include "Components/SkeletalMeshComponent.h"
@@ -20,6 +21,8 @@ ARunCharacter::ARunCharacter()
 	PlayerMesh->SetupAttachment(Camera);
 
 	GetCharacterMovement()->MaxWalkSpeed = 900.0f;
+
+	HealthComponent = CreateDefaultSubobject<UHealthComponent>("Health Component");
 	hasWeapon = false;
 }
 
@@ -37,8 +40,9 @@ AWeapon* ARunCharacter::GetWeapon()
 
 FString ARunCharacter::GetWeaponName()
 {
-	if (weapon)
+	if (weapon) {
 		return weapon->GetName();
+	}
 	return FString("No Weapon");
 }
 
@@ -48,6 +52,11 @@ int ARunCharacter::GetWeaponAmmo()
 		return weapon->GetAmmo();
 	else
 		return 0;
+}
+
+float ARunCharacter::GetCurrentHealth()
+{
+	return HealthComponent->getCurrentHealth();
 }
 
 // Called when the game starts or when spawned

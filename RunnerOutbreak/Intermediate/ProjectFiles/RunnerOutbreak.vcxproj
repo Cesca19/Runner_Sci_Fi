@@ -158,6 +158,11 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\RunnerOutbreak\TP_WeaponComponent.h"/>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\HealthComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\PickUpWeapon.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -188,6 +193,7 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\HealthComponent.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\PickUpWeapon.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacter.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacterController.h"/>
