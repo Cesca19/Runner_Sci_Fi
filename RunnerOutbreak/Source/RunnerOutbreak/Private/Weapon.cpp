@@ -13,11 +13,24 @@ AWeapon::AWeapon()
 
 	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>("Mesh");
 	SetRootComponent(Mesh);
+	name = "Default";
+	ammo = 3;
+
 }
 
 void AWeapon::Fire()
 {
 	OnFire();
+}
+
+FString AWeapon::GetName()
+{
+	return name;
+}
+
+int AWeapon::GetAmmo()
+{
+	return  ammo;
 }
 
 // Called when the game starts or when spawned

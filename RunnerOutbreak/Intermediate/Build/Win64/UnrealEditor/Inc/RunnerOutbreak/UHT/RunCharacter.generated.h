@@ -20,6 +20,9 @@ class AWeapon;
 #define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacter_h_12_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetWeaponAmmo); \
+	DECLARE_FUNCTION(execGetWeaponName); \
+	DECLARE_FUNCTION(execGetWeapon); \
 	DECLARE_FUNCTION(execAddWeapon);
 
 

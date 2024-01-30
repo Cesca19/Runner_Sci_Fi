@@ -19,6 +19,16 @@ public:
 	virtual void Fire();
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnFire();
+	UFUNCTION(BlueprintCallable)
+	FString GetName();
+	UFUNCTION(BlueprintCallable)
+	int GetAmmo();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString name;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int ammo;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int MaxAmmo;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -31,5 +41,6 @@ protected:
 	class USkeletalMeshComponent* Mesh;
 
 private:
-
+	
+	
 };

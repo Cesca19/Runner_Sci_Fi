@@ -27,11 +27,27 @@ ARunCharacter::ARunCharacter()
 void ARunCharacter::AddWeapon(TSubclassOf<AWeapon> type)
 {
 	Weapon->SetChildActorClass(type);
+	weapon  = Cast<AWeapon>(Weapon->GetChildActor());
 }
 
 AWeapon* ARunCharacter::GetWeapon()
 {
-	return Cast<AWeapon>(Weapon->GetChildActor());
+	return weapon;
+}
+
+FString ARunCharacter::GetWeaponName()
+{
+	if (weapon)
+		return weapon->GetName();
+	return FString("No Weapon");
+}
+
+int ARunCharacter::GetWeaponAmmo()
+{
+	if (weapon)
+		return weapon->GetAmmo();
+	else
+		return 0;
 }
 
 // Called when the game starts or when spawned
@@ -43,8 +59,10 @@ void ARunCharacter::BeginPlay()
 	Weapon->bEditableWhenInherited = true;
 	Weapon->RegisterComponent();
 	Weapon->CreateChildActor();
-	if(StartWeapon)
+	if (StartWeapon) {
 		Weapon->SetChildActorClass(StartWeapon);
+		weapon = Cast<AWeapon>(Weapon->GetChildActor());
+	}
 	Weapon->AttachToComponent(PlayerMesh, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), FName(TEXT("WeaponSocket")));
 }
 

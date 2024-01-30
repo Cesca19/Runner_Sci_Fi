@@ -17,7 +17,13 @@ public:
 	
 	UFUNCTION()
 	void AddWeapon(TSubclassOf<AWeapon> type);
+	UFUNCTION()
 	AWeapon* GetWeapon();
+
+	UFUNCTION(BlueprintCallable)
+	FString GetWeaponName();
+	UFUNCTION(BlueprintCallable)
+	int GetWeaponAmmo();
 
 protected:
 	// Called when the game starts or when spawned
@@ -40,4 +46,5 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 private:
 	bool hasWeapon;
+	AWeapon* weapon;
 };
