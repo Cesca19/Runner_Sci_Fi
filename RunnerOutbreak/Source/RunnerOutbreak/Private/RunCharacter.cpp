@@ -3,6 +3,7 @@
 
 #include "RunCharacter.h"
 #include "Camera/CameraComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 ARunCharacter::ARunCharacter()
@@ -13,6 +14,9 @@ ARunCharacter::ARunCharacter()
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
 	Camera->SetupAttachment(GetRootComponent());
 	Camera->bUsePawnControlRotation = true;
+
+	PlayerMesh = CreateDefaultSubobject<USkeletalMeshComponent>("Player");
+	PlayerMesh->SetupAttachment(Camera);
 
 	GetCharacterMovement()->MaxWalkSpeed = 900.0f;
 	hasWeapon = false;
@@ -33,7 +37,7 @@ void ARunCharacter::BeginPlay()
 	Weapon->bEditableWhenInherited = true;
 	Weapon->RegisterComponent();
 	Weapon->CreateChildActor();
-	Weapon->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), FName(TEXT("WeaponSocket")));
+	Weapon->AttachToComponent(PlayerMesh, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), FName(TEXT("WeaponSocket")));
 }
 
 // Called every frame
