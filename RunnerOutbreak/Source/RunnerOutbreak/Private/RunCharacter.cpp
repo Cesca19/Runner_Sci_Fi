@@ -20,7 +20,8 @@ ARunCharacter::ARunCharacter()
 	PlayerMesh = CreateDefaultSubobject<USkeletalMeshComponent>("Player");
 	PlayerMesh->SetupAttachment(Camera);
 
-	GetCharacterMovement()->MaxWalkSpeed = 900.0f;
+
+	GetCharacterMovement()->MaxWalkSpeed = 500.0f;
 
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>("Health Component");
 	hasWeapon = false;
