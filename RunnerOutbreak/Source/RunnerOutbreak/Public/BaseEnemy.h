@@ -2,9 +2,10 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "CoreMinimal.h" 
 #include "GameFramework/Character.h"
 #include "BaseEnemy.generated.h"
+
 
 UCLASS()
 class RUNNEROUTBREAK_API ABaseEnemy : public ACharacter
@@ -30,6 +31,11 @@ protected:
 	float AttackSpeed;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float DetectionRange;
+
+	UPROPERTY()
+	class AAIController* enemyController;
+	UPROPERTY()
+	class APawn* player;
 
 public:	
 	// Called every frame
