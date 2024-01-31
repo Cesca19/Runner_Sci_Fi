@@ -15,6 +15,8 @@ class RUNNEROUTBREAK_API ABaseEnemy : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ABaseEnemy();
+	//UFUNCTION(BlueprintCallable)
+	//bool GetIsDead();
 
 protected:
 	// Called when the game starts or when spawned
@@ -43,5 +45,7 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+private:
+	
 
 };

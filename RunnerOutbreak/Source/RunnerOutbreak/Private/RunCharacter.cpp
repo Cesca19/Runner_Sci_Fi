@@ -24,6 +24,7 @@ ARunCharacter::ARunCharacter()
 	GetCharacterMovement()->MaxWalkSpeed = 500.0f;
 
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>("Health Component");
+	HealthComponent->MaxHealth = 100.0f;
 	hasWeapon = false;
 }
 

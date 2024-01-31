@@ -17,7 +17,16 @@ ABaseEnemy::ABaseEnemy()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>("Health Component");
+	//IsDead = false;
 }
+
+/*
+bool ABaseEnemy::GetIsDead()
+{
+	if (HealthComponent->getCurrentHealth() == 0)
+		return true;
+	return false;
+}*/
 
 // Called when the game starts or when spawned
 void ABaseEnemy::BeginPlay()

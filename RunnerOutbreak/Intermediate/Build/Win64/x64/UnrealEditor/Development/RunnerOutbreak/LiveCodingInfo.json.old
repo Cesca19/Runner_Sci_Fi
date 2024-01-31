@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.RunnerOutbreak.cpp.obj": [
-			"BaseEnemy.gen.cpp.obj",
 			"Enemy.gen.cpp.obj",
 			"HealthComponent.gen.cpp.obj",
 			"PickUpWeapon.gen.cpp.obj",
@@ -10,7 +9,6 @@
 			"RunCharacter.gen.cpp.obj",
 			"RunCharacterController.gen.cpp.obj",
 			"RunCharacterGameMode.gen.cpp.obj",
-			"RunnerOutbreak.init.gen.cpp.obj",
 			"RunnerOutbreakCharacter.gen.cpp.obj",
 			"RunnerOutbreakGameMode.gen.cpp.obj",
 			"RunnerOutbreakPlayerController.gen.cpp.obj",
@@ -19,12 +17,9 @@
 			"TP_WeaponComponent.gen.cpp.obj",
 			"Weapon.gen.cpp.obj",
 			"WeaponPickUp.gen.cpp.obj",
-			"BaseEnemy.cpp.obj",
 			"Enemy.cpp.obj",
-			"HealthComponent.cpp.obj",
 			"PickUpWeapon.cpp.obj",
 			"Projectile.cpp.obj",
-			"RunCharacter.cpp.obj",
 			"RunCharacterController.cpp.obj",
 			"RunCharacterGameMode.cpp.obj",
 			"Weapon.cpp.obj",
@@ -35,7 +30,12 @@
 			"RunnerOutbreakPlayerController.cpp.obj",
 			"RunnerOutbreakProjectile.cpp.obj",
 			"TP_PickUpComponent.cpp.obj",
-			"TP_WeaponComponent.cpp.obj"
+			"TP_WeaponComponent.cpp.obj",
+			"BaseEnemy.gen.cpp.obj",
+			"RunnerOutbreak.init.gen.cpp.obj",
+			"BaseEnemy.cpp.obj",
+			"HealthComponent.cpp.obj",
+			"RunCharacter.cpp.obj"
 		]
 	}
 }
