@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Projectile.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Weapon.generated.h"
@@ -16,7 +17,7 @@ public:
 	AWeapon();
 	
 	UFUNCTION()
-	virtual void Fire();
+	virtual void Fire(FTransform transform);
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnFire();
 	UFUNCTION(BlueprintCallable)
@@ -29,6 +30,12 @@ public:
 	int ammo;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int MaxAmmo;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AProjectile> projectile;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	class UArrowComponent* spawnPoint;
+	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	//class USceneComponent* rootScene;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

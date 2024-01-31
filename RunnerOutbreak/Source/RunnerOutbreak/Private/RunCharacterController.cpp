@@ -56,8 +56,16 @@ void ARunCharacterController::Fire()
 {
 	
 	AWeapon* weapon = runCharacter->GetWeapon();
+
+	FRotator pawnRotation = PlayerCameraManager->GetCameraRotation();
+	// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+	FVector pawnLocation = runCharacter->GetActorLocation() + pawnRotation.RotateVector(FVector(200.0f, 0.0f, 10.0f));
+
+	FTransform transform = FTransform();
+	transform.SetLocation(pawnLocation);
+	transform.SetRotation(pawnRotation.Quaternion());
 	if (weapon) {
-		weapon->Fire();
+		weapon->Fire(transform);
 	}
 }
 

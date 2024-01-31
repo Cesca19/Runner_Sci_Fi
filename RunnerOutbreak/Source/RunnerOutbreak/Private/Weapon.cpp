@@ -4,23 +4,31 @@
 #include "Weapon.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SceneComponent.h"
+#include "Components/ArrowComponent.h"
+#include "Kismet/KismetMathLibrary.h"
 
 // Sets default values
 AWeapon::AWeapon()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>("Mesh");
 	SetRootComponent(Mesh);
+	spawnPoint = CreateDefaultSubobject<UArrowComponent>("Bullet Spawn");
+	spawnPoint->SetupAttachment(Mesh);
 	name = "Default";
 	ammo = 3;
 
 }
 
-void AWeapon::Fire()
+void AWeapon::Fire(FTransform transform)
 {
-	OnFire();
+	if (projectile && ammo) {
+		OnFire();
+		//DrawDebugSphere(GetWorld(), transform.GetLocation(), 200, 15, FColor::Yellow);
+		GetWorld()->SpawnActor(projectile, &transform) ;
+		ammo--;
+	}
 }
 
 FString AWeapon::GetName()
@@ -37,6 +45,7 @@ int AWeapon::GetAmmo()
 void AWeapon::BeginPlay()
 {
 	Super::BeginPlay();
+	ammo = MaxAmmo;
 	Mesh->SetCollisionProfileName("NoCollision");
 }
 

@@ -7,6 +7,8 @@
         "Includes": [
             "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\runneroutbreak\\definitions.runneroutbreak.h",
             "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\source\\runneroutbreak\\public\\weapon.h",
+            "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\source\\runneroutbreak\\public\\projectile.h",
+            "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\unrealeditor\\inc\\runneroutbreak\\uht\\projectile.generated.h",
             "c:\\users\\fifam\\projets\\g-tech3\\unreal c++ bp\\runner_sci_fi\\runneroutbreak\\intermediate\\build\\win64\\unrealeditor\\inc\\runneroutbreak\\uht\\weapon.generated.h"
         ],
         "ImportedModules": [],
