@@ -19,6 +19,7 @@
 			"TP_WeaponComponent.gen.cpp.obj",
 			"Weapon.gen.cpp.obj",
 			"WeaponPickUp.gen.cpp.obj",
+			"BaseEnemy.cpp.obj",
 			"Enemy.cpp.obj",
 			"HealthComponent.cpp.obj",
 			"PickUpWeapon.cpp.obj",
@@ -34,8 +35,7 @@
 			"RunnerOutbreakPlayerController.cpp.obj",
 			"RunnerOutbreakProjectile.cpp.obj",
 			"TP_PickUpComponent.cpp.obj",
-			"TP_WeaponComponent.cpp.obj",
-			"BaseEnemy.cpp.obj"
+			"TP_WeaponComponent.cpp.obj"
 		]
 	}
 }

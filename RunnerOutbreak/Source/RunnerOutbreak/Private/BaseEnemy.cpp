@@ -9,6 +9,7 @@
 #include "NavFilters/NavigationQueryFilter.h"
 #include "GenericPlatform/GenericPlatformMath.h"
 #include "Navigation/PathFollowingComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 ABaseEnemy::ABaseEnemy()
@@ -16,7 +17,6 @@ ABaseEnemy::ABaseEnemy()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>("Health Component");
-	DetectionRange = 1000.0f;
 }
 
 // Called when the game starts or when spawned
@@ -25,6 +25,7 @@ void ABaseEnemy::BeginPlay()
 	Super::BeginPlay();
 	enemyController = Cast<AAIController>(GetController());
 	player = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+	GetCharacterMovement()->MaxWalkSpeed = Movespeed;
 }
 
 // Called every frame
@@ -34,8 +35,9 @@ void ABaseEnemy::Tick(float DeltaTime)
 	if (!enemyController) return;
 
 	if (FGenericPlatformMath::Abs(FVector::Distance(player->GetActorLocation(), GetActorLocation())) <= DetectionRange) {
-		if (enemyController->MoveToActor(player, 100, true, true, true) == EPathFollowingRequestResult::Type::RequestSuccessful)
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Some debug message!"));
+		enemyController->MoveToActor(player, 100, true, true, true);
+		//if (enemyController->MoveToActor(player, 100, true, true, true) == EPathFollowingRequestResult::Type::RequestSuccessful){}
+			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Some debug message!"));
 
 	}
 		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Some debug message!"));

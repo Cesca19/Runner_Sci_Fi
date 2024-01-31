@@ -16,6 +16,7 @@
 #include "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Intermediate/Build/Win64/UnrealEditor/Inc/RunnerOutbreak/UHT/TP_WeaponComponent.gen.cpp"
 #include "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Intermediate/Build/Win64/UnrealEditor/Inc/RunnerOutbreak/UHT/Weapon.gen.cpp"
 #include "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Intermediate/Build/Win64/UnrealEditor/Inc/RunnerOutbreak/UHT/WeaponPickUp.gen.cpp"
+#include "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Source/RunnerOutbreak/Private/BaseEnemy.cpp"
 #include "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Source/RunnerOutbreak/Private/Enemy.cpp"
 #include "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Source/RunnerOutbreak/Private/HealthComponent.cpp"
 #include "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Source/RunnerOutbreak/Private/PickUpWeapon.cpp"
