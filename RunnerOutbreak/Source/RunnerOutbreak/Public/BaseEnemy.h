@@ -38,6 +38,8 @@ protected:
 	class AAIController* enemyController;
 	UPROPERTY()
 	class APawn* player;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	class UBoxComponent* DamagingBox;
 
 public:	
 	// Called every frame
@@ -46,6 +48,13 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 private:
-	
+	UPROPERTY()
+	FTimerHandle AttackTimerHandle;
 
+	UFUNCTION()
+	void OnDamageBoxOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	UFUNCTION()
+	void OnDamageBoxEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	UFUNCTION()
+	void Attack(AActor* actor);
 };

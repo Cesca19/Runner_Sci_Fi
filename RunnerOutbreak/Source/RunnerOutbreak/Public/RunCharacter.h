@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "RunCharacter.generated.h"
 
+UDELEGATE(BlueprintAuthorityOnly)
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnDeath);
+
 UCLASS()
 class RUNNEROUTBREAK_API ARunCharacter : public ACharacter
 {
@@ -26,6 +29,10 @@ public:
 	int GetWeaponAmmo();
 	UFUNCTION(BlueprintCallable)
 	float GetCurrentHealth();
+	UPROPERTY(VisibleAnywhere, BlueprintAssignable, Category = "EventDispatchers")
+	FOnDeath OnDeath;
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnPlayerDeath();
 
 protected:
 	// Called when the game starts or when spawned
@@ -51,4 +58,6 @@ public:
 private:
 	bool hasWeapon;
 	AWeapon* weapon;
+	UFUNCTION()
+	void Die();
 };

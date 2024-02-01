@@ -25,6 +25,7 @@ ARunCharacter::ARunCharacter()
 
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>("Health Component");
 	HealthComponent->MaxHealth = 100.0f;
+	HealthComponent->OnHealthDepleted.AddDynamic(this, &ARunCharacter::Die);
 	hasWeapon = false;
 }
 
@@ -89,4 +90,15 @@ void ARunCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+}
+
+void ARunCharacter::Die()
+{
+	DisableInput(GetWorld()->GetFirstPlayerController());
+	GetCharacterMovement()->DisableMovement();
+	PlayerMesh->SetVisibility(false);
+	Weapon->SetVisibility(false);
+	OnDeath.Broadcast();
+	// s'assurer que c 'est cela
+	OnPlayerDeath();
 }

@@ -18,6 +18,7 @@
 			"Weapon.gen.cpp.obj",
 			"WeaponPickUp.gen.cpp.obj",
 			"Enemy.cpp.obj",
+			"HealthComponent.cpp.obj",
 			"PickUpWeapon.cpp.obj",
 			"Projectile.cpp.obj",
 			"RunCharacterController.cpp.obj",
@@ -34,7 +35,6 @@
 			"BaseEnemy.gen.cpp.obj",
 			"RunnerOutbreak.init.gen.cpp.obj",
 			"BaseEnemy.cpp.obj",
-			"HealthComponent.cpp.obj",
 			"RunCharacter.cpp.obj"
 		]
 	}

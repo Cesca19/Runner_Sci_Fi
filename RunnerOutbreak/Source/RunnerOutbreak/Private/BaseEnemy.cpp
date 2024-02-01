@@ -3,12 +3,15 @@
 
 #include "BaseEnemy.h"
 #include "HealthComponent.h"
+#include "RunCharacter.h"
+#include "TimerManager.h"
 #include "AIController.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Pawn.h"
 #include "NavFilters/NavigationQueryFilter.h"
 #include "GenericPlatform/GenericPlatformMath.h"
 #include "Navigation/PathFollowingComponent.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
@@ -17,7 +20,9 @@ ABaseEnemy::ABaseEnemy()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>("Health Component");
-	//IsDead = false;
+	DamagingBox = CreateDefaultSubobject<UBoxComponent>("Damaging Box");
+	DamagingBox->SetupAttachment(RootComponent);
+	DamagingBox->SetCollisionProfileName("OverlapOnlyPawn");
 }
 
 /*
@@ -35,6 +40,8 @@ void ABaseEnemy::BeginPlay()
 	enemyController = Cast<AAIController>(GetController());
 	player = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 	GetCharacterMovement()->MaxWalkSpeed = Movespeed;
+	DamagingBox->OnComponentBeginOverlap.AddDynamic(this, &ABaseEnemy::OnDamageBoxOverlap);
+	DamagingBox->OnComponentEndOverlap.AddDynamic(this, &ABaseEnemy::OnDamageBoxEndOverlap);
 }
 
 // Called every frame
@@ -57,5 +64,26 @@ void ABaseEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+}
+
+void ABaseEnemy::OnDamageBoxOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	ARunCharacter* actor = Cast<ARunCharacter>(OtherActor);
+	if (actor) {
+		FTimerDelegate Delegate;
+		Delegate.BindUFunction(this, "Attack", OtherActor);
+		GetWorld()->GetTimerManager().SetTimer(AttackTimerHandle, Delegate, 1.0f, true, 0.0f);
+	}
+}
+
+void ABaseEnemy::OnDamageBoxEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{	
+	if (Cast<ARunCharacter>(OtherActor))
+		GetWorld()->GetTimerManager().ClearTimer(AttackTimerHandle);
+}
+
+void ABaseEnemy::Attack(AActor* actor)
+{
+	UGameplayStatics::ApplyDamage(actor, DamageAmount, GetInstigatorController(), this, UDamageType::StaticClass());
 }
 
