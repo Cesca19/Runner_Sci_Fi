@@ -9,6 +9,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ATile;
 #ifdef RUNNEROUTBREAK_RunCharacterGameMode_generated_h
 #error "RunCharacterGameMode.generated.h already included, missing '#pragma once' in RunCharacterGameMode.h"
 #endif
@@ -17,7 +18,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterGameMode_h_15_SPARSE_DATA
 #define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterGameMode_h_15_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterGameMode_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDestroyTile); \
+	DECLARE_FUNCTION(execOnTileExited); \
+	DECLARE_FUNCTION(execSpawnTile);
+
+
 #define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterGameMode_h_15_ACCESSORS
 #define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterGameMode_h_15_INCLASS_NO_PURE_DECLS \
 private: \
@@ -29,8 +36,6 @@ public: \
 
 
 #define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterGameMode_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ARunCharacterGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ARunCharacterGameMode(ARunCharacterGameMode&&); \
@@ -38,7 +43,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ARunCharacterGameMode); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARunCharacterGameMode); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ARunCharacterGameMode) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ARunCharacterGameMode) \
 	NO_API virtual ~ARunCharacterGameMode();
 
 

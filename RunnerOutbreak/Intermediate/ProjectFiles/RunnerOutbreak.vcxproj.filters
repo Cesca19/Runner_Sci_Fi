@@ -105,6 +105,9 @@
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\RunCharacterGameMode.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\Tile.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\Weapon.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
@@ -136,6 +139,9 @@
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacterGameMode.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Tile.h">
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Weapon.h">
