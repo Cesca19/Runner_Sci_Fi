@@ -24,6 +24,8 @@ ATile::ATile()
 	SpawnObstacleArea->SetupAttachment(RootScene);
 	SpawnPickUpArea = CreateDefaultSubobject<UBoxComponent>("Spawn PickUp Area");
 	SpawnPickUpArea->SetupAttachment(RootScene);
+	SpawnEnemyArea = CreateDefaultSubobject<UBoxComponent>("Spawn Enemy Area");
+	SpawnEnemyArea->SetupAttachment(RootScene);
 }
 
 FVector ATile::GetAttachLocation()
@@ -36,6 +38,8 @@ void ATile::BeginPlay()
 {
 	Super::BeginPlay();
 	BoxCollision->OnComponentBeginOverlap.AddDynamic(this, &ATile::OnBoxBeginOverlap);
+
+	SpawnObject(EnemyTypes, SpawnEnemyArea);
 }
 
 // Called every frame
@@ -54,7 +58,9 @@ void ATile::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* Other
 
 FVector ATile::SpawnLocation(UBoxComponent* Box)
 {
-	return UKismetMathLibrary::RandomPointInBoundingBox(Box->GetComponentLocation(), Box->GetScaledBoxExtent());
+	FVector des = UKismetMathLibrary::RandomPointInBoundingBox(Box->GetComponentLocation(), Box->GetScaledBoxExtent());
+	des.Z = 2;
+	return des;
 }
 
 void ATile::SpawnObject(TArray<TSubclassOf<AActor>> type, UBoxComponent* Box)
@@ -64,7 +70,6 @@ void ATile::SpawnObject(TArray<TSubclassOf<AActor>> type, UBoxComponent* Box)
 
 	FTransform transform;
 	transform.SetLocation(SpawnLocation(Box));
-
 	UChildActorComponent* child = NewObject<UChildActorComponent>(this);
 	child->bEditableWhenInherited = true;
 	child->RegisterComponent();

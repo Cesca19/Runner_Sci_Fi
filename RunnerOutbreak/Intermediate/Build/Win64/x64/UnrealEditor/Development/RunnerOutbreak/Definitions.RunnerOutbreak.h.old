@@ -1,4 +1,4 @@
-#include "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Intermediate/Build/Win64/x64/RunnerOutbreakEditor/Development/Engine/SharedDefinitions.Engine.Cpp20.h"
+#include "C:/Users/fifam/Projets/G-TECH3/Unreal C++ BP/Runner_Sci_Fi/RunnerOutbreak/Intermediate/Build/Win64/x64/RunnerOutbreakEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Cpp20.h"
 #undef UE_IS_ENGINE_MODULE
 #undef DEPRECATED_FORGAME
 #define DEPRECATED_FORGAME DEPRECATED
@@ -23,3 +23,7 @@
 #define UE_DEPRECATED_FORGAME UE_DEPRECATED
 #define RUNNEROUTBREAK_API DLLEXPORT
 #define ENHANCEDINPUT_API DLLIMPORT
+#define WITH_GAMEPLAY_DEBUGGER_CORE 1
+#define WITH_GAMEPLAY_DEBUGGER 1
+#define WITH_GAMEPLAY_DEBUGGER_MENU 1
+#define AIMODULE_API DLLIMPORT

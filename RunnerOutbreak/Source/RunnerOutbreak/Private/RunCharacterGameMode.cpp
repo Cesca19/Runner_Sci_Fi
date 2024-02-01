@@ -37,7 +37,6 @@ void ARunCharacterGameMode::OnTileExited(ATile* tile)
 	FTimerHandle DestroyTimerHandle;
 	FTimerDelegate TimerDelegate = FTimerDelegate::CreateUObject(this, &ARunCharacterGameMode::DestroyTile, tile);
 	GetWorldTimerManager().SetTimer(DestroyTimerHandle, TimerDelegate, 2.0f, false);
-	//tile->SetLifeSpan(1.0f);
 }
 
 void ARunCharacterGameMode::DestroyTile(ATile* tile)

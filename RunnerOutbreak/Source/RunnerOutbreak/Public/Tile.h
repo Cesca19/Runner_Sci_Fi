@@ -37,6 +37,11 @@ protected:
 	class UBoxComponent* SpawnObstacleArea;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	class UBoxComponent* SpawnPickUpArea;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	class UBoxComponent* SpawnEnemyArea;
+
+	UPROPERTY(EditAnywhere)
+	TArray<TSubclassOf<AActor>> EnemyTypes;
 
 	UFUNCTION()
 	void OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp,

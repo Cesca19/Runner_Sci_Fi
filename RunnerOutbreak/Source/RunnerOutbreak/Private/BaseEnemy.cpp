@@ -23,15 +23,9 @@ ABaseEnemy::ABaseEnemy()
 	DamagingBox = CreateDefaultSubobject<UBoxComponent>("Damaging Box");
 	DamagingBox->SetupAttachment(RootComponent);
 	DamagingBox->SetCollisionProfileName("OverlapOnlyPawn");
-}
 
-/*
-bool ABaseEnemy::GetIsDead()
-{
-	if (HealthComponent->getCurrentHealth() == 0)
-		return true;
-	return false;
-}*/
+	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
+}
 
 // Called when the game starts or when spawned
 void ABaseEnemy::BeginPlay()
@@ -49,7 +43,6 @@ void ABaseEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	if (!enemyController) return;
-
 	if (FGenericPlatformMath::Abs(FVector::Distance(player->GetActorLocation(), GetActorLocation())) <= DetectionRange) {
 		enemyController->MoveToActor(player, 100, true, true, true);
 		//if (enemyController->MoveToActor(player, 100, true, true, true) == EPathFollowingRequestResult::Type::RequestSuccessful){}

@@ -87,6 +87,9 @@
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\Enemy.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\EnemyAIController.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\HealthComponent.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
@@ -121,6 +124,9 @@
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Enemy.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\EnemyAIController.h">
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\HealthComponent.h">

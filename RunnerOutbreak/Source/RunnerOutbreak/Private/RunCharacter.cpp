@@ -21,7 +21,7 @@ ARunCharacter::ARunCharacter()
 	PlayerMesh->SetupAttachment(Camera);
 
 
-	GetCharacterMovement()->MaxWalkSpeed = 500.0f;
+	GetCharacterMovement()->MaxWalkSpeed = 800.0f;
 
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>("Health Component");
 	HealthComponent->MaxHealth = 100.0f;
