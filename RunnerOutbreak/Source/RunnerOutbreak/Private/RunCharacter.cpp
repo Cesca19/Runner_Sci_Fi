@@ -21,12 +21,13 @@ ARunCharacter::ARunCharacter()
 	PlayerMesh->SetupAttachment(Camera);
 
 
-	GetCharacterMovement()->MaxWalkSpeed = 800.0f;
+	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
 
 	HealthComponent = CreateDefaultSubobject<UHealthComponent>("Health Component");
 	HealthComponent->MaxHealth = 100.0f;
 	HealthComponent->OnHealthDepleted.AddDynamic(this, &ARunCharacter::Die);
 	hasWeapon = false;
+	TravelledDistance = 0;
 }
 
 
@@ -62,10 +63,17 @@ float ARunCharacter::GetCurrentHealth()
 	return HealthComponent->getCurrentHealth();
 }
 
+int ARunCharacter::GetDistance()
+{
+	return TravelledDistance / 100;
+}
+
 // Called when the game starts or when spawned
 void ARunCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	lastLocation = GetActorLocation();
 
 	Weapon = NewObject<UChildActorComponent>(this);
 	Weapon->bEditableWhenInherited = true;
@@ -82,14 +90,14 @@ void ARunCharacter::BeginPlay()
 void ARunCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	TravelledDistance += GetCharacterMovement()->Velocity.Size() * GetWorld()->GetDeltaSeconds();
 }
 
 // Called to bind functionality to input
 void ARunCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
+	
 }
 
 void ARunCharacter::Die()

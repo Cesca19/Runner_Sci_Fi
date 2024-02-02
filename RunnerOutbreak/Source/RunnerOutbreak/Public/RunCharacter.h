@@ -33,6 +33,8 @@ public:
 	FOnDeath OnDeath;
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnPlayerDeath();
+	UFUNCTION(BlueprintCallable)
+	int GetDistance();
 
 protected:
 	// Called when the game starts or when spawned
@@ -56,8 +58,10 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 private:
+	float TravelledDistance;
 	bool hasWeapon;
 	AWeapon* weapon;
+	FVector lastLocation;
 	UFUNCTION()
 	void Die();
 };

@@ -25,6 +25,7 @@ RUNNEROUTBREAK_API void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate&
 #define FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execDie); \
+	DECLARE_FUNCTION(execGetDistance); \
 	DECLARE_FUNCTION(execGetCurrentHealth); \
 	DECLARE_FUNCTION(execGetWeaponAmmo); \
 	DECLARE_FUNCTION(execGetWeaponName); \
