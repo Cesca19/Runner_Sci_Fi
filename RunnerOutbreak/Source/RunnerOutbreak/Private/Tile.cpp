@@ -40,6 +40,7 @@ void ATile::BeginPlay()
 	BoxCollision->OnComponentBeginOverlap.AddDynamic(this, &ATile::OnBoxBeginOverlap);
 
 	SpawnObject(EnemyTypes, SpawnEnemyArea);
+	SpawnObject(ObstaclesTypes, SpawnObstacleArea);
 }
 
 // Called every frame
@@ -59,7 +60,6 @@ void ATile::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* Other
 FVector ATile::SpawnLocation(UBoxComponent* Box)
 {
 	FVector des = UKismetMathLibrary::RandomPointInBoundingBox(Box->GetComponentLocation(), Box->GetScaledBoxExtent());
-	des.Z = 2;
 	return des;
 }
 

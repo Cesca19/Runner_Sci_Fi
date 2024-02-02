@@ -29,6 +29,7 @@ RUNNEROUTBREAK_API void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate&
 	DECLARE_FUNCTION(execGetCurrentHealth); \
 	DECLARE_FUNCTION(execGetWeaponAmmo); \
 	DECLARE_FUNCTION(execGetWeaponName); \
+	DECLARE_FUNCTION(execAddAcceleration); \
 	DECLARE_FUNCTION(execGetWeapon); \
 	DECLARE_FUNCTION(execAddWeapon);
 

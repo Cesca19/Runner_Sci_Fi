@@ -173,7 +173,22 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\FireObstacle.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\HealthComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\MudObstacle.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\Obstacle.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
@@ -221,7 +236,10 @@
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\BaseEnemy.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Enemy.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\EnemyAIController.h"/>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\FireObstacle.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\HealthComponent.h"/>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\MudObstacle.h"/>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Obstacle.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\PickUpWeapon.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Projectile.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacter.h"/>

@@ -23,13 +23,17 @@ public:
 	UFUNCTION()
 	AWeapon* GetWeapon();
 
+	/* Character abilities modifier */
+	UFUNCTION()
+	void AddAcceleration(float offset);
+
 	UFUNCTION(BlueprintCallable)
 	FString GetWeaponName();
 	UFUNCTION(BlueprintCallable)
 	int GetWeaponAmmo();
 	UFUNCTION(BlueprintCallable)
 	float GetCurrentHealth();
-	UPROPERTY(VisibleAnywhere, BlueprintAssignable, Category = "EventDispatchers")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, BlueprintAssignable, Category = "EventDispatchers")
 	FOnDeath OnDeath;
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnPlayerDeath();

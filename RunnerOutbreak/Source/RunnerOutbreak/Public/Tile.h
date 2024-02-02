@@ -42,6 +42,8 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	TArray<TSubclassOf<AActor>> EnemyTypes;
+	UPROPERTY(EditAnywhere)
+	TArray<TSubclassOf<AActor>> ObstaclesTypes;
 
 	UFUNCTION()
 	void OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp,
