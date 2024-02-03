@@ -41,6 +41,7 @@ void ATile::BeginPlay()
 
 	SpawnObject(EnemyTypes, SpawnEnemyArea);
 	SpawnObject(ObstaclesTypes, SpawnObstacleArea);
+	SpawnObject(PickUpTypes, SpawnPickUpArea);
 }
 
 // Called every frame

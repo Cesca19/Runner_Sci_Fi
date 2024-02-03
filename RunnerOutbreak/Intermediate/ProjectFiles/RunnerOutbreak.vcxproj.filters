@@ -96,10 +96,16 @@
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\HealthComponent.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\HealthPickUp.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\MudObstacle.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\Obstacle.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\PickUp.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\PickUpWeapon.cpp">
@@ -144,10 +150,16 @@
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\HealthComponent.h">
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\HealthPickUp.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\MudObstacle.h">
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Obstacle.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\PickUp.h">
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\PickUpWeapon.h">
