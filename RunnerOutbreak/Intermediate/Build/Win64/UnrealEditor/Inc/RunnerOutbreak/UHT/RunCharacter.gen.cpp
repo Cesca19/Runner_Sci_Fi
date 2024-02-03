@@ -82,6 +82,21 @@ void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath)
 		*(FString*)Z_Param__Result=P_THIS->GetWeaponName();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ARunCharacter::execGetMaxAmmo)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->GetMaxAmmo();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ARunCharacter::execAddAmmo)
+	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_number);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->AddAmmo(Z_Param_number);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ARunCharacter::execAddAcceleration)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param_offset);
@@ -115,10 +130,12 @@ void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath)
 		UClass* Class = ARunCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AddAcceleration", &ARunCharacter::execAddAcceleration },
+			{ "AddAmmo", &ARunCharacter::execAddAmmo },
 			{ "AddWeapon", &ARunCharacter::execAddWeapon },
 			{ "Die", &ARunCharacter::execDie },
 			{ "GetCurrentHealth", &ARunCharacter::execGetCurrentHealth },
 			{ "GetDistance", &ARunCharacter::execGetDistance },
+			{ "GetMaxAmmo", &ARunCharacter::execGetMaxAmmo },
 			{ "GetWeapon", &ARunCharacter::execGetWeapon },
 			{ "GetWeaponAmmo", &ARunCharacter::execGetWeaponAmmo },
 			{ "GetWeaponName", &ARunCharacter::execGetWeaponName },
@@ -162,6 +179,40 @@ void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath)
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARunCharacter_AddAcceleration_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics
+	{
+		struct RunCharacter_eventAddAmmo_Parms
+		{
+			int32 number;
+		};
+		static const UECodeGen_Private::FIntPropertyParams NewProp_number;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::NewProp_number = { "number", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RunCharacter_eventAddAmmo_Parms, number), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::NewProp_number,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/RunCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARunCharacter, nullptr, "AddAmmo", nullptr, nullptr, Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::PropPointers), sizeof(Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::RunCharacter_eventAddAmmo_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::Function_MetaDataParams), Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::RunCharacter_eventAddAmmo_Parms) < MAX_uint16);
+	UFunction* Z_Construct_UFunction_ARunCharacter_AddAmmo()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARunCharacter_AddAmmo_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -286,6 +337,40 @@ void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath)
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARunCharacter_GetDistance_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics
+	{
+		struct RunCharacter_eventGetMaxAmmo_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RunCharacter_eventGetMaxAmmo_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/RunCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARunCharacter, nullptr, "GetMaxAmmo", nullptr, nullptr, Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::PropPointers), sizeof(Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::RunCharacter_eventGetMaxAmmo_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::Function_MetaDataParams), Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::RunCharacter_eventGetMaxAmmo_Parms) < MAX_uint16);
+	UFunction* Z_Construct_UFunction_ARunCharacter_GetMaxAmmo()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARunCharacter_GetMaxAmmo_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -460,10 +545,12 @@ void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath)
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ARunCharacter_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_ARunCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ARunCharacter_AddAcceleration, "AddAcceleration" }, // 41592258
+		{ &Z_Construct_UFunction_ARunCharacter_AddAmmo, "AddAmmo" }, // 3263116408
 		{ &Z_Construct_UFunction_ARunCharacter_AddWeapon, "AddWeapon" }, // 3176518602
 		{ &Z_Construct_UFunction_ARunCharacter_Die, "Die" }, // 2485999047
 		{ &Z_Construct_UFunction_ARunCharacter_GetCurrentHealth, "GetCurrentHealth" }, // 1940333801
 		{ &Z_Construct_UFunction_ARunCharacter_GetDistance, "GetDistance" }, // 1908602940
+		{ &Z_Construct_UFunction_ARunCharacter_GetMaxAmmo, "GetMaxAmmo" }, // 278332155
 		{ &Z_Construct_UFunction_ARunCharacter_GetWeapon, "GetWeapon" }, // 538102538
 		{ &Z_Construct_UFunction_ARunCharacter_GetWeaponAmmo, "GetWeaponAmmo" }, // 2155664162
 		{ &Z_Construct_UFunction_ARunCharacter_GetWeaponName, "GetWeaponName" }, // 2897406220
@@ -483,7 +570,7 @@ void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath)
 		{ "ModuleRelativePath", "Public/RunCharacter.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ARunCharacter_Statics::NewProp_OnDeath = { "OnDeath", nullptr, (EPropertyFlags)0x0010000010080005, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARunCharacter, OnDeath), Z_Construct_UDelegateFunction_RunnerOutbreak_OnDeath__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ARunCharacter_Statics::NewProp_OnDeath_MetaData), Z_Construct_UClass_ARunCharacter_Statics::NewProp_OnDeath_MetaData) }; // 260579771
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ARunCharacter_Statics::NewProp_OnDeath = { "OnDeath", nullptr, (EPropertyFlags)0x0010000010080001, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARunCharacter, OnDeath), Z_Construct_UDelegateFunction_RunnerOutbreak_OnDeath__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ARunCharacter_Statics::NewProp_OnDeath_MetaData), Z_Construct_UClass_ARunCharacter_Statics::NewProp_OnDeath_MetaData) }; // 260579771
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARunCharacter_Statics::NewProp_Camera_MetaData[] = {
 		{ "Category", "RunCharacter" },
@@ -569,9 +656,9 @@ void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath)
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ARunCharacter, ARunCharacter::StaticClass, TEXT("ARunCharacter"), &Z_Registration_Info_UClass_ARunCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARunCharacter), 1191461025U) },
+		{ Z_Construct_UClass_ARunCharacter, ARunCharacter::StaticClass, TEXT("ARunCharacter"), &Z_Registration_Info_UClass_ARunCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARunCharacter), 3421380119U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacter_h_1653653319(TEXT("/Script/RunnerOutbreak"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacter_h_331281675(TEXT("/Script/RunnerOutbreak"),
 		Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

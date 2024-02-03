@@ -16,14 +16,19 @@ public:
 	// Sets default values for this actor's properties
 	AWeapon();
 	
+
 	UFUNCTION()
-	virtual void Fire(FTransform transform);
+	virtual void StartFiring();
+	UFUNCTION()
+	virtual void StopFiring();
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnFire();
 	UFUNCTION(BlueprintCallable)
 	FString GetName();
 	UFUNCTION(BlueprintCallable)
 	int GetAmmo();
+	UFUNCTION(BlueprintCallable)
+	int GetMaxAmmo();
 	UFUNCTION()
 	void AddAmmo(int amount);
 
@@ -44,13 +49,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	
 protected:
+	UFUNCTION()
+	virtual void Fire();
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	class USkeletalMeshComponent* Mesh;
-
-private:
-	
-	
+	APlayerController* controller;
 };

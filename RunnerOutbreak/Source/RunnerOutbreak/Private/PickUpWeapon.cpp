@@ -13,6 +13,7 @@ APickUpWeapon::APickUpWeapon()
 	PrimaryActorTick.bCanEverTick = true;
 
 	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>("Mesh");
+	Mesh->SetCollisionProfileName("BlockAllDynamic");
 	SetRootComponent(Mesh);
 }
 

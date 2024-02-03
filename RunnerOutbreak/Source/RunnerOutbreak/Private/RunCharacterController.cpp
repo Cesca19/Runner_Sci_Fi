@@ -26,7 +26,8 @@ void ARunCharacterController::SetupInputComponent()
 	InputComponent->BindAxis("LookUp", this, &ARunCharacterController::LookUp);
 	InputComponent->BindAxis("LookRight", this, &ARunCharacterController::LookRight);
 	InputComponent->BindAction("Jump", EInputEvent::IE_Pressed, this, &ARunCharacterController::Jump);
-	InputComponent->BindAction("Fire", EInputEvent::IE_Pressed, this, &ARunCharacterController::Fire);
+	InputComponent->BindAction("Fire", EInputEvent::IE_Pressed, this, &ARunCharacterController::StartFiring);
+	InputComponent->BindAction("Fire", EInputEvent::IE_Released, this, &ARunCharacterController::StopFiring);
 }
 
 void ARunCharacterController::MoveRight(float offset)
@@ -52,20 +53,20 @@ void ARunCharacterController::Jump()
 	runCharacter->Jump();
 }
 
-void ARunCharacterController::Fire()
+void ARunCharacterController::StartFiring()
 {
 	
 	AWeapon* weapon = runCharacter->GetWeapon();
-
-	FRotator pawnRotation = PlayerCameraManager->GetCameraRotation();
-	// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-	FVector pawnLocation = runCharacter->GetActorLocation() + pawnRotation.RotateVector(FVector(100.0f, 0.0f, 10.0f));
-
-	FTransform transform = FTransform();
-	transform.SetLocation(pawnLocation);
-	transform.SetRotation(pawnRotation.Quaternion());
 	if (weapon) {
-		weapon->Fire(transform);
+		weapon->StartFiring();
+	}
+}
+
+void ARunCharacterController::StopFiring()
+{
+	AWeapon* weapon = runCharacter->GetWeapon();
+	if (weapon) {
+		weapon->StopFiring();
 	}
 }
 

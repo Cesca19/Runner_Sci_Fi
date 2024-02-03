@@ -13,6 +13,7 @@ AProjectile::AProjectile()
 {
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>("Mesh");
 	SetRootComponent(Mesh);
+	Mesh->SetCollisionProfileName("OverlapOnlyPawn");
 
 	Movement = CreateDefaultSubobject<UProjectileMovementComponent>("Movement");
 	Movement->UpdatedComponent = Mesh;

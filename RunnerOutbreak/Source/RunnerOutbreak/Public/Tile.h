@@ -46,6 +46,8 @@ protected:
 	TArray<TSubclassOf<AActor>> ObstaclesTypes;
 	UPROPERTY(EditAnywhere)
 	TArray<TSubclassOf<AActor>> PickUpTypes;
+	UPROPERTY(EditAnywhere)
+	TArray<TSubclassOf<AActor>> WeaponTypes;
 
 	UFUNCTION()
 	void OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp,
@@ -59,5 +61,5 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	void SpawnMembers();
 };

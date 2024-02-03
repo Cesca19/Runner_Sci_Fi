@@ -15,11 +15,18 @@ void EmptyLinkFunctionForGeneratedCodeRunCharacterController() {}
 	RUNNEROUTBREAK_API UClass* Z_Construct_UClass_ARunCharacterController_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_RunnerOutbreak();
 // End Cross Module References
-	DEFINE_FUNCTION(ARunCharacterController::execFire)
+	DEFINE_FUNCTION(ARunCharacterController::execStopFiring)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->Fire();
+		P_THIS->StopFiring();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ARunCharacterController::execStartFiring)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->StartFiring();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(ARunCharacterController::execJump)
@@ -57,35 +64,14 @@ void EmptyLinkFunctionForGeneratedCodeRunCharacterController() {}
 	{
 		UClass* Class = ARunCharacterController::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "Fire", &ARunCharacterController::execFire },
 			{ "Jump", &ARunCharacterController::execJump },
 			{ "LookRight", &ARunCharacterController::execLookRight },
 			{ "LookUp", &ARunCharacterController::execLookUp },
 			{ "MoveRight", &ARunCharacterController::execMoveRight },
+			{ "StartFiring", &ARunCharacterController::execStartFiring },
+			{ "StopFiring", &ARunCharacterController::execStopFiring },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_ARunCharacterController_Fire_Statics
-	{
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ARunCharacterController_Fire_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/RunCharacterController.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ARunCharacterController_Fire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARunCharacterController, nullptr, "Fire", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ARunCharacterController_Fire_Statics::Function_MetaDataParams), Z_Construct_UFunction_ARunCharacterController_Fire_Statics::Function_MetaDataParams) };
-	UFunction* Z_Construct_UFunction_ARunCharacterController_Fire()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARunCharacterController_Fire_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ARunCharacterController_Jump_Statics
 	{
@@ -211,6 +197,50 @@ void EmptyLinkFunctionForGeneratedCodeRunCharacterController() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ARunCharacterController_StartFiring_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ARunCharacterController_StartFiring_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/RunCharacterController.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ARunCharacterController_StartFiring_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARunCharacterController, nullptr, "StartFiring", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ARunCharacterController_StartFiring_Statics::Function_MetaDataParams), Z_Construct_UFunction_ARunCharacterController_StartFiring_Statics::Function_MetaDataParams) };
+	UFunction* Z_Construct_UFunction_ARunCharacterController_StartFiring()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARunCharacterController_StartFiring_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ARunCharacterController_StopFiring_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ARunCharacterController_StopFiring_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/RunCharacterController.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ARunCharacterController_StopFiring_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARunCharacterController, nullptr, "StopFiring", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ARunCharacterController_StopFiring_Statics::Function_MetaDataParams), Z_Construct_UFunction_ARunCharacterController_StopFiring_Statics::Function_MetaDataParams) };
+	UFunction* Z_Construct_UFunction_ARunCharacterController_StopFiring()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARunCharacterController_StopFiring_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ARunCharacterController);
 	UClass* Z_Construct_UClass_ARunCharacterController_NoRegister()
 	{
@@ -237,11 +267,12 @@ void EmptyLinkFunctionForGeneratedCodeRunCharacterController() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ARunCharacterController_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_ARunCharacterController_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ARunCharacterController_Fire, "Fire" }, // 939197058
 		{ &Z_Construct_UFunction_ARunCharacterController_Jump, "Jump" }, // 4099133617
 		{ &Z_Construct_UFunction_ARunCharacterController_LookRight, "LookRight" }, // 2298946293
 		{ &Z_Construct_UFunction_ARunCharacterController_LookUp, "LookUp" }, // 3811254413
 		{ &Z_Construct_UFunction_ARunCharacterController_MoveRight, "MoveRight" }, // 296821289
+		{ &Z_Construct_UFunction_ARunCharacterController_StartFiring, "StartFiring" }, // 3350689449
+		{ &Z_Construct_UFunction_ARunCharacterController_StopFiring, "StopFiring" }, // 3875281138
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ARunCharacterController_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -302,9 +333,9 @@ void EmptyLinkFunctionForGeneratedCodeRunCharacterController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ARunCharacterController, ARunCharacterController::StaticClass, TEXT("ARunCharacterController"), &Z_Registration_Info_UClass_ARunCharacterController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARunCharacterController), 3654692638U) },
+		{ Z_Construct_UClass_ARunCharacterController, ARunCharacterController::StaticClass, TEXT("ARunCharacterController"), &Z_Registration_Info_UClass_ARunCharacterController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARunCharacterController), 1796720070U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterController_h_3132727394(TEXT("/Script/RunnerOutbreak"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterController_h_3720168547(TEXT("/Script/RunnerOutbreak"),
 		Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_RunCharacterController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

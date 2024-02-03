@@ -30,5 +30,7 @@ private:
 	UFUNCTION()
 	void Jump();
 	UFUNCTION()
-	void Fire();
+	void StartFiring();
+	UFUNCTION()
+	void StopFiring();
 };

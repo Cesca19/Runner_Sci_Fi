@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RunnerOutbreakModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20ebc5b4f30360186f4c295ce0cd9abcef6a3cc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a50c861bdfa05f8fcfaae71249d1dbb16bd2c178")]
 [assembly: System.Reflection.AssemblyProductAttribute("RunnerOutbreakModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RunnerOutbreakModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

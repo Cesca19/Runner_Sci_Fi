@@ -53,6 +53,13 @@ void ARunCharacter::AddAmmo(int number)
 		weapon->AddAmmo(number);
 }
 
+int ARunCharacter::GetMaxAmmo()
+{
+	if (weapon)
+		return weapon->GetMaxAmmo();
+	return 0;
+}
+
 FString ARunCharacter::GetWeaponName()
 {
 	if (weapon) {

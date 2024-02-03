@@ -2,6 +2,8 @@
 
 
 #include "Weapon.h"
+//#include "RunCharacter.h"
+#include "Kismet/GameplayStatics.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SceneComponent.h"
 #include "Components/ArrowComponent.h"
@@ -21,14 +23,31 @@ AWeapon::AWeapon()
 
 }
 
-void AWeapon::Fire(FTransform transform)
+void AWeapon::Fire()
 {
+	FRotator pawnRotation = controller->PlayerCameraManager->GetCameraRotation();
+	// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+	FVector pawnLocation = controller->GetPawn()->GetActorLocation() + pawnRotation.RotateVector(FVector(0.0f, 0.0f, 10.0f));
+
+	FTransform transform = FTransform();
+	transform.SetLocation(pawnLocation);
+	transform.SetRotation(pawnRotation.Quaternion());
+
 	if (projectile && ammo) {
 		OnFire();
 		//DrawDebugSphere(GetWorld(), transform.GetLocation(), 200, 15, FColor::Yellow);
 		GetWorld()->SpawnActor(projectile, &transform) ;
 		ammo--;
 	}
+}
+
+void AWeapon::StartFiring()
+{
+	Fire();
+}
+
+void AWeapon::StopFiring()
+{
 }
 
 FString AWeapon::GetName()
@@ -39,6 +58,11 @@ FString AWeapon::GetName()
 int AWeapon::GetAmmo()
 {
 	return  ammo;
+}
+
+int AWeapon::GetMaxAmmo()
+{
+	return MaxAmmo;
 }
 
 void AWeapon::AddAmmo(int amount)
@@ -53,6 +77,7 @@ void AWeapon::BeginPlay()
 	Super::BeginPlay();
 	ammo = MaxAmmo;
 	Mesh->SetCollisionProfileName("NoCollision");
+	controller = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 }
 
 

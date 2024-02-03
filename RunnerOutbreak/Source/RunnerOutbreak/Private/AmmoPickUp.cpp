@@ -9,7 +9,7 @@ void AAmmoPickUp::OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImp
 	ARunCharacter* character = Cast<ARunCharacter>(OtherActor);
 	if (character) {
 		OnPickUp();
-		character->AddAmmo(AmmoAmount);
+		character->AddAmmo(character->GetMaxAmmo() / 2);
 		Destroy();
 	}
 }

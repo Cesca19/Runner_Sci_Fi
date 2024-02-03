@@ -39,9 +39,7 @@ void ATile::BeginPlay()
 	Super::BeginPlay();
 	BoxCollision->OnComponentBeginOverlap.AddDynamic(this, &ATile::OnBoxBeginOverlap);
 
-	SpawnObject(EnemyTypes, SpawnEnemyArea);
-	SpawnObject(ObstaclesTypes, SpawnObstacleArea);
-	SpawnObject(PickUpTypes, SpawnPickUpArea);
+	SpawnMembers();
 }
 
 // Called every frame
@@ -49,6 +47,28 @@ void ATile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ATile::SpawnMembers()
+{
+	if (UKismetMathLibrary::RandomBoolWithWeight(0.7)) {
+		int max = FMath::RandRange(0, 3);
+		for (int i = 0; i < max; i++)
+			SpawnObject(EnemyTypes, SpawnEnemyArea);
+	} else {
+		int max = FMath::RandRange(1, 4);
+		for (int i = 0; i < max; i++)
+			SpawnObject(PickUpTypes, SpawnPickUpArea);
+	}
+
+	if (UKismetMathLibrary::RandomBoolWithWeight(0.6)) {
+		SpawnObject(ObstaclesTypes, SpawnObstacleArea);
+		SpawnObject(EnemyTypes, SpawnEnemyArea);
+	} else {
+		int max = FMath::RandRange(0, 2);
+		for (int i = 0; i < max; i++)
+			SpawnObject(WeaponTypes, SpawnPickUpArea);
+	}
 }
 
 void ATile::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
