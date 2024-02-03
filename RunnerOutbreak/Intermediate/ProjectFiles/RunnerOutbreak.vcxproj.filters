@@ -81,6 +81,9 @@
     <Filter Include="Source\RunnerOutbreak\Private">
       <UniqueIdentifier>{6B6F4193-FE15-38CB-B989-937927C7041C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\AmmoPickUp.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\BaseEnemy.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
@@ -123,6 +126,9 @@
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\RunCharacterGameMode.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\StimpPackPickUp.cpp">
+      <Filter>Source\RunnerOutbreak\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\Tile.cpp">
       <Filter>Source\RunnerOutbreak\Private</Filter>
     </ClCompile>
@@ -135,6 +141,9 @@
     <Filter Include="Source\RunnerOutbreak\Public">
       <UniqueIdentifier>{E1304F07-E357-3710-B479-D0779142D2B1}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\AmmoPickUp.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\BaseEnemy.h">
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
@@ -175,6 +184,9 @@
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacterGameMode.h">
+      <Filter>Source\RunnerOutbreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\StimpPackPickUp.h">
       <Filter>Source\RunnerOutbreak\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Tile.h">

@@ -24,6 +24,9 @@ public:
 	FString GetName();
 	UFUNCTION(BlueprintCallable)
 	int GetAmmo();
+	UFUNCTION()
+	void AddAmmo(int amount);
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString name;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

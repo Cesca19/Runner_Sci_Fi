@@ -158,6 +158,11 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\RunnerOutbreak\TP_WeaponComponent.h"/>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\AmmoPickUp.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\BaseEnemy.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -228,6 +233,11 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RunnerOutbreak\Private\StimpPackPickUp.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RunnerOutbreak\Private\Tile.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -243,6 +253,7 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\AmmoPickUp.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\BaseEnemy.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Enemy.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\EnemyAIController.h"/>
@@ -257,6 +268,7 @@
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacter.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacterController.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\RunCharacterGameMode.h"/>
+    <ClInclude Include="..\..\Source\RunnerOutbreak\Public\StimpPackPickUp.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Tile.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\Weapon.h"/>
     <ClInclude Include="..\..\Source\RunnerOutbreak\Public\WeaponPickUp.h"/>

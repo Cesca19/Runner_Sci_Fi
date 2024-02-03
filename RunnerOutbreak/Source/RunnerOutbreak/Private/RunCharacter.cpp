@@ -47,6 +47,12 @@ void ARunCharacter::AddAcceleration(float offset)
 	GetCharacterMovement()->MaxWalkSpeed = GetCharacterMovement()->MaxWalkSpeed + offset;
 }
 
+void ARunCharacter::AddAmmo(int number)
+{
+	if (weapon)
+		weapon->AddAmmo(number);
+}
+
 FString ARunCharacter::GetWeaponName()
 {
 	if (weapon) {

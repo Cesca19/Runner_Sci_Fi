@@ -26,6 +26,7 @@ public:
 	/* Character abilities modifier */
 	UFUNCTION()
 	void AddAcceleration(float offset);
+	void AddAmmo(int number);
 
 	UFUNCTION(BlueprintCallable)
 	FString GetWeaponName();

@@ -41,6 +41,12 @@ int AWeapon::GetAmmo()
 	return  ammo;
 }
 
+void AWeapon::AddAmmo(int amount)
+{
+	ammo += amount;
+	ammo = FMath::Clamp(ammo, 0, MaxAmmo);
+}
+
 // Called when the game starts or when spawned
 void AWeapon::BeginPlay()
 {

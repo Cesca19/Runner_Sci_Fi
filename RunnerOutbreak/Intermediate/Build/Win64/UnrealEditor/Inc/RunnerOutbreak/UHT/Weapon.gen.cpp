@@ -19,6 +19,14 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 	RUNNEROUTBREAK_API UClass* Z_Construct_UClass_AWeapon_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_RunnerOutbreak();
 // End Cross Module References
+	DEFINE_FUNCTION(AWeapon::execAddAmmo)
+	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_amount);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->AddAmmo(Z_Param_amount);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AWeapon::execGetAmmo)
 	{
 		P_FINISH;
@@ -50,11 +58,46 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 	{
 		UClass* Class = AWeapon::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "AddAmmo", &AWeapon::execAddAmmo },
 			{ "Fire", &AWeapon::execFire },
 			{ "GetAmmo", &AWeapon::execGetAmmo },
 			{ "GetName", &AWeapon::execGetName },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AWeapon_AddAmmo_Statics
+	{
+		struct Weapon_eventAddAmmo_Parms
+		{
+			int32 amount;
+		};
+		static const UECodeGen_Private::FIntPropertyParams NewProp_amount;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AWeapon_AddAmmo_Statics::NewProp_amount = { "amount", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Weapon_eventAddAmmo_Parms, amount), METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AWeapon_AddAmmo_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AWeapon_AddAmmo_Statics::NewProp_amount,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AWeapon_AddAmmo_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Weapon.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AWeapon_AddAmmo_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AWeapon, nullptr, "AddAmmo", nullptr, nullptr, Z_Construct_UFunction_AWeapon_AddAmmo_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AWeapon_AddAmmo_Statics::PropPointers), sizeof(Z_Construct_UFunction_AWeapon_AddAmmo_Statics::Weapon_eventAddAmmo_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AWeapon_AddAmmo_Statics::Function_MetaDataParams), Z_Construct_UFunction_AWeapon_AddAmmo_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AWeapon_AddAmmo_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AWeapon_AddAmmo_Statics::Weapon_eventAddAmmo_Parms) < MAX_uint16);
+	UFunction* Z_Construct_UFunction_AWeapon_AddAmmo()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AWeapon_AddAmmo_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AWeapon_Fire_Statics
 	{
@@ -226,6 +269,7 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AWeapon_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_AWeapon_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AWeapon_AddAmmo, "AddAmmo" }, // 4215280431
 		{ &Z_Construct_UFunction_AWeapon_Fire, "Fire" }, // 407562909
 		{ &Z_Construct_UFunction_AWeapon_GetAmmo, "GetAmmo" }, // 3730970188
 		{ &Z_Construct_UFunction_AWeapon_GetName, "GetName" }, // 2265653730
@@ -328,9 +372,9 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_Weapon_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AWeapon, AWeapon::StaticClass, TEXT("AWeapon"), &Z_Registration_Info_UClass_AWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWeapon), 2995086355U) },
+		{ Z_Construct_UClass_AWeapon, AWeapon::StaticClass, TEXT("AWeapon"), &Z_Registration_Info_UClass_AWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWeapon), 1263221590U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_Weapon_h_143898411(TEXT("/Script/RunnerOutbreak"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_Weapon_h_3543618967(TEXT("/Script/RunnerOutbreak"),
 		Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_Weapon_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_fifam_Projets_G_TECH3_Unreal_C___BP_Runner_Sci_Fi_RunnerOutbreak_Source_RunnerOutbreak_Public_Weapon_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
